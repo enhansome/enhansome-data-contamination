@@ -1,0 +1,913 @@
+{
+  "items": [
+    {
+      "description": "Data Contamination, also known as train-test contamination or benchmark leakage, indicates the case in which the model has seen information (e.g., test instances, test prompts, etc.) about the test set to be evaluated on during training. This issue has become particularly crucial in the era of foundation models, as they are typically trained on massive data that is poorly understood, raising the risk of unintentional contamination and resulting in a false positive on the model performance.\n",
+      "items": [],
+      "title": "🌟 Data Contamination"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📜 Papers"
+    },
+    {
+      "description": "In this paper list, we tag each paper with one or more labels defined in the table below. These tags serve the purpose of facilitating the related work searching.\n",
+      "items": [],
+      "title": "🏷️ Tagset"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Holistic Evaluation of Language Models (TMLR 2023) Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce Zhang, Christian Cosgrove, Christopher D. Manning, Christopher Ré, Diana Acosta-Navas, Drew A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue Wang, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Chi, Sang Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, Yuta Koreeda [paper",
+          "description": "] [code] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-01T01:23:17Z",
+            "owner": "stanford-crfm",
+            "repo": "helm",
+            "stars": 2877
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DyVal: Graph-informed Dynamic Evaluation of Large Language Models (ICLR 2024) Kaijie Zhu, Jiaao Chen, Jindong Wang, Neil Zhenqiang Gong, Diyi Yang, Xing Xie [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2026-02-20T18:55:32Z",
+            "owner": "microsoftarchive",
+            "repo": "promptbench",
+            "stars": 2821
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LiveBench: A Challenging, Contamination-Free LLM Benchmark (GitHub, 14 June 2024) Colin White, Samuel Dooley, Manley Roberts, Arka Pal, Benjamin Feuer, Siddhartha Jain, Ravid Shwartz-Ziv, Neel Jain, Khalid Saifullah, Siddartha Naidu, Chinmay Hegde, Yann LeCun, Tom Goldstein, Willie Neiswanger, Micah Goldblum [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T06:31:59Z",
+            "owner": "LiveBench",
+            "repo": "LiveBench",
+            "stars": 1277
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Recent Advances in Large Langauge Model Benchmarks against Data Contamination: From Static to Dynamic Evaluation (arXiv, 23 Feb 2025) Simin Chen, Yiming Chen, Zexin Li, Yifan Jiang, Zhongwei Wan, Yixin He, Dezhi Ran, Tianle Gu, Haizhou Li, Tao Xie, Baishakhi Ray [paper",
+          "description": "] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-08-11T13:57:47Z",
+            "owner": "SeekingDream",
+            "repo": "Static-to-Dynamic-LLMEval",
+            "stars": 499
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples (arXiv, 8 Nov 2023) Shuo Yang, Wei-Lin Chiang, Lianmin Zheng, Joseph E. Gonzalez, Ion Stoica [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-12-20T22:33:26Z",
+            "owner": "lm-sys",
+            "repo": "llm-decontaminator",
+            "stars": 325
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MathArena: Evaluating LLMs on Uncontaminated Math Competitions (Feb 2025) Mislav Balunović and Jasper Dekoninck and Ivo Petrov and Nikola Jovanović and Martin Vechev [website",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-23T22:50:27Z",
+            "owner": "eth-sri",
+            "repo": "matharena",
+            "stars": 277
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MixEval: Deriving Wisdom of the Crowd from LLM Benchmark Mixtures (NeurIPS 2024) Jinjie Ni, Fuzhao Xue, Xiang Yue, Yuntian Deng, Mahir Shah, Kabir Jain, Graham Neubig, Yang You [paper",
+          "description": "] [website] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-10T02:23:50Z",
+            "owner": "JinjieNi",
+            "repo": "MixEval",
+            "stars": 254
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Detecting Pretraining Data from Large Language Models (ICLR 2024) Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, Luke Zettlemoyer [paper",
+          "description": "] [code] [dataset] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-11-03T08:14:44Z",
+            "owner": "swj0419",
+            "repo": "detect-pretrain-code",
+            "stars": 242
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MMLU-CF: A Contamination-free Multi-task Language Understanding Benchmark (ACL 2025) Qihao Zhao, Yangyu Huang, Tengchao Lv, Lei Cui, Qinzheng Sun, Shaoguang Mao, Xin Zhang, Ying Xin, Qiufeng Yin, Scarlett Li, Furu Wei [paper",
+          "description": "] [code] [dataset]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2025-05-17T16:52:16Z",
+            "owner": "microsoft",
+            "repo": "MMLU-CF",
+            "stars": 126
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap (arXiv, 29 Feb 2024) Saurabh Srivastava, Annarose M B, Anto P V, Shashank Menon, Ajay Sukumar, Adwaith Samod T, Alan Philipose, Stevin Prince, Sooraj Thomas [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TeX",
+            "last_commit": "2026-07-23T13:52:43Z",
+            "owner": "ConsequentAI",
+            "repo": "fneval",
+            "stars": 90
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Coding Benchmarks via LLM (arXiv, 28 Mar 2024) Chunqiu Steven Xia, Yinlin Deng, Lingming Zhang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-04-06T23:26:59Z",
+            "owner": "evo-eval",
+            "repo": "evoeval",
+            "stars": 84
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark (Findings of EMNLP 2023) Oscar Sainz, Jon Ander Campos, Iker García-Ferrero, Julen Etxaniz, Oier Lopez de Lacalle, Eneko Agirre [paper",
+          "description": "] [code] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-04-11T13:13:46Z",
+            "owner": "hitz-zentroa",
+            "repo": "lm-contamination",
+            "stars": 82
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories (arXiv, 31 Mar 2024) Jia Li, Ge Li, Xuanming Zhang, Yihong Dong, Zhi Jin [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-15T02:47:59Z",
+            "owner": "seketeam",
+            "repo": "EvoCodeBench",
+            "stars": 71
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NPHardEval: Dynamic Benchmark on Reasoning Ability of Large Language Models via Complexity Classes (arXiv, 22 Dec 2023) Lizhou Fan, Wenyue Hua, Lingyao Li, Haoyang Ling, Yongfeng Zhang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2024-03-26T20:37:39Z",
+            "owner": "casmlab",
+            "repo": "NPHardEval",
+            "stars": 65
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CLEVA: Chinese Language Models EVAluation Platform (EMNLP 2023 Demo) Yanyang Li, Jianqiao Zhao, Duo Zheng, Zi-Yuan Hu, Zhi Chen, Xiaohui Su, Yongfeng Huang, Shijia Huang, Dahua Lin, Michael Lyu, Liwei Wang [paper",
+          "description": "] [dataset] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2025-05-16T06:14:01Z",
+            "owner": "LaVi-Lab",
+            "repo": "CLEVA",
+            "stars": 64
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "How Much are LLMs Contaminated? A Comprehensive Survey and the LLMSanitize Library (arXiv, 31 Mar 2024) Mathieu Ravaut, Bosheng Ding, Fangkai Jiao, Hailin Chen, Xingxuan Li, Ruochen Zhao, Chengwei Qin, Caiming Xiong, Shafiq Joty [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-13T20:34:35Z",
+            "owner": "ntunlp",
+            "repo": "LLMSanitize",
+            "stars": 62
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Benchmarking Benchmark Leakage in Large Language Models (arXiv, 29 Apr 2024) Ruijie Xu, Zengzhi Wang, Run-Ze Fan, Pengfei Liu [paper",
+          "description": "] [code] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2024-05-20T01:59:32Z",
+            "owner": "GAIR-NLP",
+            "repo": "benbench",
+            "stars": 61
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Min-K%++: Improved Baseline for Detecting Pre-Training Data from Large Language Models (arXiv, 3 Apr 2024) Jingyang Zhang, Jingwei Sun, Eric Yeats, Yang Ouyang, Martin Kuo, Jianyi Zhang, Hao Yang, Hai Li [paper",
+          "description": "] [website] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-05-26T17:07:57Z",
+            "owner": "zjysteven",
+            "repo": "mink-plus-plus",
+            "stars": 60
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index (EMNLP 2025) Hao Xu, Jiacheng Liu, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi [paper",
+          "description": "] [code] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2025-09-26T23:28:24Z",
+            "owner": "xuhaoxh",
+            "repo": "infini-gram-mini",
+            "stars": 57
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Preference Leakage: A Contamination Problem in LLM-as-a-judge (arXiv, 3 Feb 2025) Dawei Li, Renliang Sun, Yue Huang, Ming Zhong, Bohan Jiang, Jiawei Han, Xiangliang Zhang, Wei Wang, Huan Liu [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2025-05-22T21:50:04Z",
+            "owner": "David-Li0406",
+            "repo": "Preference-Leakage",
+            "stars": 56
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "An Open Source Data Contamination Report for Large Language Models (Findings of EMNLP 2024) Yucheng Li, Yunhao Guo, Frank Guerin, Chenghua Lin [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-03-08T21:05:13Z",
+            "owner": "liyucheng09",
+            "repo": "Contamination_Detector",
+            "stars": 53
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Proving Test Set Contamination in Black Box Language Models (ICLR 2024) Yonatan Oren, Nicole Meister, Niladri Chatterji, Faisal Ladhak, Tatsunori B. Hashimoto [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-11-07T21:22:57Z",
+            "owner": "tatsu-lab",
+            "repo": "test_set_contamination",
+            "stars": 43
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LLM Dataset Inference: Did you train on my dataset? (ACL 2024 The 1st Workshop on Data Contamination) Pratyush Maini, Hengrui Jia, Nicolas Papernot, Adam Dziedzic [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2024-07-25T07:17:22Z",
+            "owner": "pratyushmaini",
+            "repo": "llm_dataset_inference",
+            "stars": 41
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Elephants Never Forget: Testing Language Models for Memorization of Tabular Data (NeurIPS 2023 Second Table Representation Learning Workshop) Sebastian Bordt, Harsha Nori, Rich Caruana [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2025-02-10T12:05:51Z",
+            "owner": "interpretml",
+            "repo": "LLM-Tabular-Memorization-Checker",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "S3Eval: A Synthetic, Scalable, Systematic Evaluation Suite for Large Language Models (arXiv, 23 Oct 2023) Fangyu Lei, Qian Liu, Yiming Huang, Shizhu He, Jun Zhao, Kang Liu [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-10T17:54:46Z",
+            "owner": "lfy79001",
+            "repo": "S3Eval",
+            "stars": 33
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LatestEval: Addressing Data Contamination in Language Model Evaluation through Dynamic and Time-Sensitive Test Construction (AAAI 2024) Yucheng Li, Frank Guerin, Chenghua Lin [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-02-17T18:12:03Z",
+            "owner": "liyucheng09",
+            "repo": "LatestEval",
+            "stars": 29
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Membership Inference Attacks against Language Models via Neighbourhood Comparison (Findings of ACL 2023) Justus Mattern, Fatemehsadat Mireshghallah, Zhijing Jin, Bernhard Schölkopf, Mrinmaya Sachan, Taylor Berg-Kirkpatrick [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-08-18T07:12:18Z",
+            "owner": "mireshghallah",
+            "repo": "neighborhood-curvature-mia",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation (arXiv, 18 Feb 2024) Siyuan Wang, Zhuohan Long, Zhihao Fan, Zhongyu Wei, Xuanjing Huang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-02-28T15:23:11Z",
+            "owner": "NanshineLoong",
+            "repo": "Self-Evolving-Benchmark",
+            "stars": 26
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method (EMNLP 2024) Weichao Zhang, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Yixing Fan, Xueqi Cheng [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-05-21T03:39:06Z",
+            "owner": "zhang-wei-chao",
+            "repo": "DC-PDD",
+            "stars": 23
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Membership Inference Attacks on Tokenizers of Large Language Models (arXiv, 7 Oct 2025) Meng Tong, Yuntao Du, Kejiang Chen, Weiming Zhang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-22T07:03:28Z",
+            "owner": "mengtong0110",
+            "repo": "Tokenizer-MIA",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FreeEval: A Modular Framework for Trustworthy and Efficient Evaluation of Large Language Models (EMNLP 2024 Demo) Zhuohao Yu, Chang Gao, Wenjin Yao, Yidong Wang, Zhengran Zeng, Wei Ye, Jindong Wang, Yue Zhang, Shikun Zhang [paper",
+          "description": "] [code] [website]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-08-03T07:46:44Z",
+            "owner": "WisdomShell",
+            "repo": "FreeEval",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph (arXiv, 25 June 2024) Zhehao Zhang, Jiaao Chen, Diyi Yang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-10-13T15:04:13Z",
+            "owner": "SALT-NLP",
+            "repo": "DARG",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Both Text and Images Leaked! A Systematic Analysis of Multimodal LLM Data Contamination (arXiv, 6 Nov 2024) Dingjie Song, Sicheng Lai, Shunian Chen, Lichao Sun, Benyou Wang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-10-17T06:48:08Z",
+            "owner": "MLLM-Data-Contamination",
+            "repo": "MM-Detect",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Time Travel in LLMs: Tracing Data Contamination in Large Language Models (ICLR 2024) Shahriar Golchin, Mihai Surdeanu [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-11T04:32:05Z",
+            "owner": "shahriargolchin",
+            "repo": "time-travel-in-llms",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models (arXiv, 10 Oct 2025) Yongding Tao, Tian Wang, Yihong Dong, Huanyu Liu, Kechi Zhang, Xiaolong Hu, Ge Li [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-10-13T11:35:54Z",
+            "owner": "yongding-tao",
+            "repo": "RL-Data-Contamination",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NPHardEval4V: A Dynamic Reasoning Benchmark of Multimodal Large Language Models (arXiv, 4 Mar 2024) Lizhou Fan, Wenyue Hua, Xiang Li, Kaijie Zhu, Mingyu Jin, Lingyao Li, Haoyang Ling, Jinkui Chi, Jindong Wang, Xin Ma, Yongfeng Zhang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-03-08T16:01:55Z",
+            "owner": "lizhouf",
+            "repo": "NPHardEval4V",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Data Contamination Can Cross Language Barriers (EMNLP 2024) Feng Yao, Yufan Zhuang, Zihao Sun, Sunan Xu, Animesh Kumar, Jingbo Shang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-09-11T19:04:03Z",
+            "owner": "shangdatalab",
+            "repo": "Deep-Contam",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DICE: Detecting In-distribution Contamination in LLM's Fine-tuning Phase for Math Reasoning (arXiv, 6 June 2024) Shangqing Tu, Kejian Zhu, Yushi Bai, Zijun Yao, Lei Hou, Juanzi Li [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-09-21T12:48:41Z",
+            "owner": "THU-KEG",
+            "repo": "DICE",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods (EMNLP 2024) Roy Xie, Junlin Wang, Ruomin Huang, Minxing Zhang, Rong Ge, Jian Pei, Neil Zhenqiang Gong, Bhuwan Dhingra [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-27T18:44:32Z",
+            "owner": "ruoyuxie",
+            "repo": "recall",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "On The Fragility of Benchmark Contamination Detection in Reasoning Models (arXiv, 30 Sep 2025) Han Wang, Haoyu Li, Brian Ko, Huan Zhang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2025-10-09T04:41:03Z",
+            "owner": "ASTRAL-Group",
+            "repo": "LRM_Conta_Detection_Arena",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Con-ReCall: Detecting Pre-training Data in LLMs via Contrastive Decoding (COLING 2025) Cheng Wang, Yiwei Wang, Bryan Hooi, Yujun Cai, Nanyun Peng, Kai-Wei Chang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-16T17:44:05Z",
+            "owner": "WangCheng0116",
+            "repo": "CON-RECALL",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "How Contaminated Is Your Benchmark? Quantifying Dataset Leakage in Large Language Models with Kernel Divergence (ICML 2025) Hyeong Kyu Choi, Maxim Khanov, Hongxin Wei, Yixuan Li [paper",
+          "description": "] [code] Abstract Dataset contamination, where evaluation datasets overlap with pre-training corpora, inflates performance metrics and undermines the reliability of model evaluations. Measuring dataset contamination thus becomes essential to ensure that performance evaluations genuinely reflect a model's ability to generalize to unseen data, rather than relying on memorized examples. To address this problem, we propose Kernel Divergence Score (KDS), a novel method that evaluates dataset contamination by computing the divergence between the kernel similarity matrix of sample embeddings, before and after fine-tuning on the benchmark dataset. Leveraging the insight that fine-tuning affects unseen samples more significantly than seen ones, KDS provides a reliable measure of contamination. Through extensive experiments on controlled contamination scenarios, KDS demonstrates a near-perfect correlation with contamination levels and outperforms existing baselines. Additionally, we perform comprehensive ablation studies to analyze the impact of key design choices, providing deeper insights into the components and effectiveness of KDS. These ablations highlight the importance of leveraging fine-grained kernel-based information and confirm the reliability of the proposed framework across diverse datasets and settings.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-07-20T05:35:23Z",
+            "owner": "deeplearning-wisc",
+            "repo": "kernel-divergence-score",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DE-COP: Detecting Copyrighted Content in Language Models Training Data (ICML 2024) André V. Duarte, Xuandong Zhao, Arlindo L. Oliveira, Lei Li [paper",
+          "description": "] [code] [data1] [data2]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-05T15:44:37Z",
+            "owner": "LeiLiLab",
+            "repo": "DE-COP",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Language model developers should report train-test overlap (arXiv, 10 Oct 2024) Andy K Zhang, Kevin Klyman, Yifan Mai, Yoav Levine, Yian Zhang, Rishi Bommasani, Percy Liang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-03-27T00:16:42Z",
+            "owner": "stanford-crfm",
+            "repo": "data-overlap",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Detecting Training Data of Large Language Models via Expectation Maximization (10 Oct 2024) Gyuwan Kim, Yang Li, Evangelia Spiliopoulou, Jie Ma, Miguel Ballesteros, William Yang Wang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-10-11T02:03:19Z",
+            "owner": "gyuwankim",
+            "repo": "em-mia",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ConStat: Performance-Based Contamination Detection in Large Language Models (NeurIPS 2024) Jasper Dekoninck, Mark Niklas Müller, Martin Vechev [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-07-29T12:40:22Z",
+            "owner": "eth-sri",
+            "repo": "ConStat",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Sampling-based Pseudo-Likelihood for Membership Inference Attacks (Findings of ACL 2025) Masahiro Kaneko, Youmi Ma, Yuki Wata, Naoaki Okazaki [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-04-18T16:19:08Z",
+            "owner": "nlp-titech",
+            "repo": "samia",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Membership Inference on LLMs in the Wild (arXiv, 16 Jan 2026) Jiatong Yi, Yanyang Li [paper",
+          "description": "] [code] [website] [data]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-01-19T05:56:07Z",
+            "owner": "simmia2026",
+            "repo": "SimMIA",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TreeEval: Benchmark-Free Evaluation of Large Language Models through Tree Planning (arXiv, 20 Feb 2024) Xiang Li, Yunshi Lan, Chao Yang [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-12-10T06:36:06Z",
+            "owner": "Ashura5",
+            "repo": "TreeEval",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Blackbox Model Provenance via Palimpsestic Membership Inference (NeurIPS 2025) Rohith Kuditipudi, Jing Huang, Sally Zhu, Diyi Yang, Christopher Potts, Percy Liang [paper",
+          "description": "][code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Jupyter Notebook",
+            "last_commit": "2026-02-12T19:56:42Z",
+            "owner": "RohithKuditipudi",
+            "repo": "blackbox-model-tracing",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "VarBench: Robust Language Model Benchmarking Through Dynamic Variable Perturbation (Findings of EMNLP 2024) Kun Qian, Shunji Wan, Claudia Tang, Youzhi Wang, Xuanming Zhang, Maximillian Chen, Zhou Yu [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-27T17:17:05Z",
+            "owner": "qbetterk",
+            "repo": "VarBench",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DyePack: Provably Flagging Test Set Contamination in LLMs Using Backdoors (EMNLP 2025) Yize Cheng, Wenxiao Wang, Mazda Moayeri, Soheil Feizi [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-08-23T02:13:53Z",
+            "owner": "chengez",
+            "repo": "DyePack",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Automated Detection of Pre-training Text in Black-box LLMs (arXiv, 24 Jun 2025) Ruihan Hu, Yu-Ming Shang, Jiankun Peng, Wei Luo, Yazhe Wang, Xi Zhang [paper",
+          "description": "] [code] Abstract Detecting whether a given text is a member of the pre-training data of Large Language Models (LLMs) is crucial for ensuring data privacy and copyright protection. Most existing methods rely on the LLM's hidden information (e.g., model parameters or token probabilities), making them ineffective in the black-box setting, where only input and output texts are accessible. Although some methods have been proposed for the black-box setting, they rely on massive manual efforts such as designing complicated questions or instructions. To address these issues, we propose VeilProbe, the first framework for automatically detecting LLMs' pre-training texts in a black-box setting without human intervention. VeilProbe utilizes a sequence-to-sequence mapping model to infer the latent mapping feature between the input text and the corresponding output suffix generated by the LLM. Then it performs the key token perturbations to obtain more distinguishable membership features. Additionally, considering real-world scenarios where the ground-truth training text samples are limited, a prototype-based membership classifier is introduced to alleviate the overfitting issue. Extensive evaluations on three widely used datasets demonstrate that our framework is effective and superior in the black-box setting.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-05-15T06:17:10Z",
+            "owner": "STAIR-BUPT",
+            "repo": "VeilProbe",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Provable Training Data Identification for Large Language Models (ICML 2026) Zhenlong Liu, Hao Zeng, Weiran Huang, Hongxin Wei [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-25T08:13:08Z",
+            "owner": "zhenlong-liu",
+            "repo": "Provable_Training_Data_Identification",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DCR: Quantifying Data Contamination in LLMs Evaluation (EMNLP 2025) Cheng Xu, Nan Yan, Shuhao Guan, Changhong Jin, Yuke Mei, Yibing Guo, Tahar Kechadi [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-11-01T02:00:35Z",
+            "owner": "chengxuphd",
+            "repo": "dcr",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data in LLMs (arXiv, 23 Jul 2025) Eyal German, Sagiv Antebi, Daniel Samira, Asaf Shabtai, Yuval Elovici [paper",
+          "description": "] [code] [data]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-20T10:18:26Z",
+            "owner": "eyalgerman",
+            "repo": "Tab-MIA",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LNE-Blocking: An Efficient Framework for Contamination Mitigation Evaluation on Large Language Models (Findings of EMNLP 2025) Ruijie Hou, Yueyang Jiao, Hanxu Hu, Yingming Li, Wai Lam, Huajian Zhang, Hongyuan Lu [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-09-23T15:42:29Z",
+            "owner": "RuijieH",
+            "repo": "LNE-Blocking",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "How does Bayesian Sampling help Membership Inference Attacks? (ICML 2026) Zhenlong Liu, Wenyu Jiang, Feng Zhou, Hongxin Wei [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-25T07:12:29Z",
+            "owner": "zhenlong-liu",
+            "repo": "BMIA",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spiking the training data to correct for test set contamination (arXiv, 24 May 2026) Johnny Tian-Zheng Wei, Jerry Li, Ameya Godbole, Robin Jia [paper",
+          "description": "] [code]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-13T00:53:49Z",
+            "owner": "Jeli04",
+            "repo": "spiking-tsc",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "🎯 The List"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🧰 Resources"
+    },
+    {
+      "description": "In general, there are two types of data contamination tools: contamination detector, which identifies the contamination risk for a given test set w/ or w/o knowing the pretraining corpus, and contamination index, which documents the contamination risk of public benchmarks against foundation models or pretraining corpora and is utilized for a trustworthy comparison of foundation models.\nContamination index could be a product of contamination detectors. However, proprietary models do not disclose details about their pretraining corpora, invalidating most contamination detectors. Hence, relevant contamination statistics of these models can only be collected in the released paper or technical reports and are not reproducible in general.\nA reference list of contamination detectors and contamination indices is as follows:\nSome open-sourced evaluation tools provide the decontamination option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Language Model Evaluation Harness",
+          "description": "[docs]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-11T08:24:39Z",
+            "owner": "EleutherAI",
+            "repo": "lm-evaluation-harness",
+            "stars": 13614
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LLM Decontaminator",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-12-20T22:33:26Z",
+            "owner": "lm-sys",
+            "repo": "llm-decontaminator",
+            "stars": 325
+          }
+        }
+      ],
+      "title": "🛠️ Tools"
+    },
+    {
+      "description": "Please cite our repo if find our work useful.\nYou are also welcome to cite our papers.\n",
+      "items": [],
+      "title": "🚩 Citation"
+    },
+    {
+      "description": "We thank all contributors to this repo :heart:\nThere are cases where we miss important work in this field. We welcome opening PRs/issues to contribute to this repo and make this paper list more complete :blush:\n",
+      "items": [],
+      "title": "🎉 Contribution"
+    },
+    {
+      "description": "We referred to the template of Knowledge Editing for LLMs Papers when building this paper list. Thanks to its authors for their impressive work!",
+      "items": [],
+      "title": "🤝 Acknowledgement"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T11:27:52.943Z",
+    "original_repository": "lyy1994/awesome-data-contamination",
+    "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
+    "enhanced_repository": "enhansome/enhansome-data-contamination",
+    "enhanced_repository_description": null,
+    "title": "Awesome Data Contamination with stars"
+  }
+}
