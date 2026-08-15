@@ -29,7 +29,7 @@
             "last_commit": "2026-08-01T01:23:17Z",
             "owner": "stanford-crfm",
             "repo": "helm",
-            "stars": 2877
+            "stars": 2880
           }
         },
         {
@@ -54,10 +54,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T06:47:16Z",
+            "last_commit": "2026-08-14T18:16:07Z",
             "owner": "LiveBench",
             "repo": "LiveBench",
-            "stars": 1279
+            "stars": 1282
           }
         },
         {
@@ -71,7 +71,7 @@
             "last_commit": "2026-08-11T13:57:47Z",
             "owner": "SeekingDream",
             "repo": "Static-to-Dynamic-LLMEval",
-            "stars": 500
+            "stars": 498
           }
         },
         {
@@ -866,7 +866,7 @@
             "last_commit": "2026-08-14T09:42:10Z",
             "owner": "EleutherAI",
             "repo": "lm-evaluation-harness",
-            "stars": 13629
+            "stars": 13641
           }
         },
         {
@@ -903,7 +903,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T11:28:00.915Z",
+    "last_updated": "2026-08-15T10:58:06.858Z",
     "original_repository": "lyy1994/awesome-data-contamination",
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
     "enhanced_repository": "enhansome/enhansome-data-contamination",
