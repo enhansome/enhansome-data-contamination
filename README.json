@@ -29,7 +29,7 @@
             "last_commit": "2026-08-01T01:23:17Z",
             "owner": "stanford-crfm",
             "repo": "helm",
-            "stars": 2880
+            "stars": 2879
           }
         },
         {
@@ -54,10 +54,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-16T10:58:50Z",
+            "last_commit": "2026-08-17T01:41:23Z",
             "owner": "LiveBench",
             "repo": "LiveBench",
-            "stars": 1283
+            "stars": 1286
           }
         },
         {
@@ -127,7 +127,7 @@
             "last_commit": "2023-11-03T08:14:44Z",
             "owner": "swj0419",
             "repo": "detect-pretrain-code",
-            "stars": 242
+            "stars": 243
           }
         },
         {
@@ -866,7 +866,7 @@
             "last_commit": "2026-08-14T09:42:10Z",
             "owner": "EleutherAI",
             "repo": "lm-evaluation-harness",
-            "stars": 13658
+            "stars": 13683
           }
         },
         {
@@ -903,7 +903,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-16T10:59:08.563Z",
+    "last_updated": "2026-08-17T11:02:18.234Z",
     "original_repository": "lyy1994/awesome-data-contamination",
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
     "enhanced_repository": "enhansome/enhansome-data-contamination",
