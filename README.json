@@ -54,10 +54,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-17T01:41:23Z",
+            "last_commit": "2026-08-17T20:40:40Z",
             "owner": "LiveBench",
             "repo": "LiveBench",
-            "stars": 1286
+            "stars": 1287
           }
         },
         {
@@ -463,7 +463,7 @@
             "last_commit": "2024-10-13T15:04:13Z",
             "owner": "SALT-NLP",
             "repo": "DARG",
-            "stars": 18
+            "stars": 19
           }
         },
         {
@@ -650,6 +650,20 @@
         },
         {
           "node_type": "item",
+          "title": "Membership Inference on LLMs in the Wild (arXiv, 16 Jan 2026) Jiatong Yi, Yanyang Li [paper",
+          "description": "] [code] [website] [data]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-01-19T05:56:07Z",
+            "owner": "simmia2026",
+            "repo": "SimMIA",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
           "title": "ConStat: Performance-Based Contamination Detection in Large Language Models (NeurIPS 2024) Jasper Dekoninck, Mark Niklas Müller, Martin Vechev [paper",
           "description": "] [code]",
           "children": [],
@@ -673,20 +687,6 @@
             "last_commit": "2024-04-18T16:19:08Z",
             "owner": "nlp-titech",
             "repo": "samia",
-            "stars": 6
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Membership Inference on LLMs in the Wild (arXiv, 16 Jan 2026) Jiatong Yi, Yanyang Li [paper",
-          "description": "] [code] [website] [data]",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-01-19T05:56:07Z",
-            "owner": "simmia2026",
-            "repo": "SimMIA",
             "stars": 6
           }
         },
@@ -866,7 +866,7 @@
             "last_commit": "2026-08-14T09:42:10Z",
             "owner": "EleutherAI",
             "repo": "lm-evaluation-harness",
-            "stars": 13683
+            "stars": 13694
           }
         },
         {
@@ -903,7 +903,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T11:02:18.234Z",
+    "last_updated": "2026-08-18T11:02:25.171Z",
     "original_repository": "lyy1994/awesome-data-contamination",
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
     "enhanced_repository": "enhansome/enhansome-data-contamination",
