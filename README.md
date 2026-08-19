@@ -61,7 +61,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 
 1. **Holistic Evaluation of Language Models** (TMLR 2023) ![](https://img.shields.io/badge/Analysis-brown)![](https://img.shields.io/badge/Tool-purple) <br />
    *Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce Zhang, Christian Cosgrove, Christopher D. Manning, Christopher Ré, Diana Acosta-Navas, Drew A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue Wang, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Chi, Sang Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, Yuta Koreeda*
-   \[[paper](https://arxiv.org/abs/2211.09110)] \[[code](https://github.com/stanford-crfm/helm) ⭐ 2,879 | 🐛 93 | 🌐 Python | 📅 2026-08-01] \[[website](https://crfm.stanford.edu/helm/classic/latest/)]
+   \[[paper](https://arxiv.org/abs/2211.09110)] \[[code](https://github.com/stanford-crfm/helm) ⭐ 2,880 | 🐛 92 | 🌐 Python | 📅 2026-08-01] \[[website](https://crfm.stanford.edu/helm/classic/latest/)]
 
     <details><summary><b>Abstract</b></summary>
     Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and metrics (i.e. desiderata) that are of interest for LMs. Then we select a broad subset based on coverage and feasibility, noting what's missing or underrepresented (e.g. question answering for neglected English dialects, metrics for trustworthiness). Second, we adopt a multi-metric approach: We measure 7 metrics (accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency) for each of 16 core scenarios when possible (87.5% of the time). This ensures metrics beyond accuracy don't fall to the wayside, and that trade-offs are clearly exposed. We also perform 7 targeted evaluations, based on 26 targeted scenarios, to analyze specific aspects (e.g. reasoning, disinformation). Third, we conduct a large-scale evaluation of 30 prominent language models (spanning open, limited-access, and closed models) on all 42 scenarios, 21 of which were not previously used in mainstream LM evaluation. Prior to HELM, models on average were evaluated on just 17.9% of the core HELM scenarios, with some prominent models not sharing a single scenario in common. We improve this to 96.0%: now all 30 models have been densely benchmarked on the same core scenarios and metrics under standardized conditions. Our evaluation surfaces 25 top-level findings. For full transparency, we release all raw model prompts and completions publicly for further analysis, as well as a general modular toolkit. We intend for HELM to be a living benchmark for the community, continuously updated with new scenarios, metrics, and models.
@@ -76,7 +76,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     </details>
 3. **LiveBench: A Challenging, Contamination-Free LLM Benchmark** (GitHub, 14 June 2024) ![](https://img.shields.io/badge/Preventative-blue)![](https://img.shields.io/badge/Dataset-orange) <br />
    *Colin White, Samuel Dooley, Manley Roberts, Arka Pal, Benjamin Feuer, Siddhartha Jain, Ravid Shwartz-Ziv, Neel Jain, Khalid Saifullah, Siddartha Naidu, Chinmay Hegde, Yann LeCun, Tom Goldstein, Willie Neiswanger, Micah Goldblum*
-   \[[paper](https://livebench.ai/livebench.pdf)] \[[code](https://github.com/LiveBench/LiveBench) ⭐ 1,287 | 🐛 174 | 🌐 Python | 📅 2026-08-17]
+   \[[paper](https://livebench.ai/livebench.pdf)] \[[code](https://github.com/LiveBench/LiveBench) ⭐ 1,288 | 🐛 175 | 🌐 Python | 📅 2026-08-18]
     <details><summary><b>Abstract</b></summary>
     Test set contamination, wherein test data from a benchmark ends up in a newer model’s training set, is a well-documented obstacle for fair LLM evaluation and can quickly render benchmarks obsolete. To mitigate this, many recent benchmarks crowdsource new prompts and evaluations from human or LLM judges; however, these can introduce significant biases, and break down when scoring hard questions. In this work, we introduce a new benchmark for LLMs designed to be immune to both test set contamination and the pitfalls of LLM judging and human crowdsourcing. We release LiveBench, the first benchmark that (1) contains frequently updated questions from recent information sources, (2) scores answers automatically according to objective ground-truth values, and (3) contains a wide variety of challenging tasks, spanning math, coding, reasoning, language, instruction following, and data analysis. To achieve this, LiveBench contains questions that are based on recently-released math competitions, arXiv papers, news articles, and datasets, and it contains harder, contamination-free versions of tasks from previous benchmarks such as Big-Bench Hard, AMPS, bAbI, and IFEval. We evaluate many prominent closed-source models, as well as dozens of open-source models ranging from 0.5B to 110B in size. LiveBench is difficult, with top models achieving below 60% accuracy. We release all questions, code, and model answers. Questions will be added and updated on a monthly basis, and we will release new tasks and harder versions of tasks over time so that LiveBench can distinguish between the capabilities of LLMs as they improve in the future. We welcome community engagement and collaboration for expanding the benchmark tasks and models.
     </details>
@@ -94,14 +94,14 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     </details>
 6. **MathArena: Evaluating LLMs on Uncontaminated Math Competitions** (Feb 2025) ![](https://img.shields.io/badge/Preventative-blue) <br />
    *Mislav Balunović and Jasper Dekoninck and Ivo Petrov and Nikola Jovanović and Martin Vechev*
-   \[[website](https://matharena.ai/)] \[[code](https://github.com/eth-sri/matharena) ⭐ 278 | 🐛 6 | 🌐 Python | 📅 2026-06-23]
+   \[[website](https://matharena.ai/)] \[[code](https://github.com/eth-sri/matharena) ⭐ 279 | 🐛 6 | 🌐 Python | 📅 2026-06-23]
 
     <details><summary><b>Abstract</b></summary>
     MathArena is a platform for evaluation of LLMs on the latest math competitions and olympiads. Our mission is rigorous assessment of the reasoning and generalization capabilities of LLMs on new math problems which the models have not seen during training. To ensure a fair and uncontaminated evaluation, we exclusively test models on competitions that took place after their release, avoiding retroactive assessments on potentially leaked or pre-trained material. By performing standardized evaluation we ensure model scores are actually comparable and are not dependent on the specific evaluation setup of the model provider.
 
    To show the model performance, we publish a leaderboard for each competition showing the scores of different models individual problems. Additionally, we will include a main table that includes model performance on all competitions. To evaluate performance, we run each model 4 times on each problem, computing the average score and the cost of the model (in USD) across all runs.
 
-   We open sourced our evaluation code at: <https://github.com/eth-sri/matharena> ⭐ 278 | 🐛 6 | 🌐 Python | 📅 2026-06-23.
+   We open sourced our evaluation code at: <https://github.com/eth-sri/matharena> ⭐ 279 | 🐛 6 | 🌐 Python | 📅 2026-06-23.
 
     </details>
 7. **MixEval: Deriving Wisdom of the Crowd from LLM Benchmark Mixtures** (NeurIPS 2024) ![](https://img.shields.io/badge/Preventative-blue) <br />
@@ -277,7 +277,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
      </details>
 35. **Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models** (arXiv, 10 Oct 2025) ![](https://img.shields.io/badge/Reactive-green)![](https://img.shields.io/badge/Dataset-orange) <br />
     *Yongding Tao, Tian Wang, Yihong Dong, Huanyu Liu, Kechi Zhang, Xiaolong Hu, Ge Li*
-    \[[paper](https://arxiv.org/abs/2510.09259)] \[[code](https://github.com/yongding-tao/RL-Data-Contamination) ⭐ 14 | 🐛 3 | 🌐 Python | 📅 2025-10-13]
+    \[[paper](https://arxiv.org/abs/2510.09259)] \[[code](https://github.com/yongding-tao/RL-Data-Contamination) ⭐ 15 | 🐛 3 | 🌐 Python | 📅 2025-10-13]
     <details><summary><b>Abstract</b></summary>
         Data contamination poses a significant threat to the reliable evaluation of Large Language Models (LLMs). This issue arises when benchmark samples may inadvertently appear in training sets, compromising the validity of reported performance. While detection methods have been developed for the pre-training and Supervised Fine-Tuning stages, a critical research gap exists for the increasingly significant phase of Reinforcement Learning (RL) post-training. As RL post-training becomes pivotal for advancing LLM reasoning, the absence of specialized contamination detection methods in this paradigm presents a critical vulnerability. To address this, we conduct the first systematic study of data detection within RL post-training scenario and propose Self-Critique. Our method is motivated by a key observation: after RL phase, the output entropy distribution of LLMs tends to collapse into highly specific and sparse modes. Self-Critique probes for the underlying policy collapse, i.e., the model's convergence to a narrow reasoning path, which causes this entropy reduction. To facilitate this research, we also introduce RL-MIA, a benchmark constructed to simulate this specific contamination scenario. Extensive experiments show that Self-Critique significantly outperforms baseline methods across multiple models and contamination tasks, achieving an AUC improvement of up to 30%. Whereas existing methods are close to a random guess for RL-phase contamination, our method makes detection possible.
     </details>
@@ -944,7 +944,7 @@ A reference list of contamination detectors and contamination indices is as foll
 
 Some open-sourced evaluation tools provide the **decontamination** option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:
 
-* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,694 | 🐛 937 | 🌐 Python | 📅 2026-08-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,694 | 🐛 937 | 🌐 Python | 📅 2026-08-14]
+* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,716 | 🐛 945 | 🌐 Python | 📅 2026-08-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,716 | 🐛 945 | 🌐 Python | 📅 2026-08-14]
 * [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator) ⭐ 325 | 🐛 4 | 🌐 Python | 📅 2023-12-20
 * ......
 
@@ -1042,4 +1042,4 @@ We referred to the template of [Knowledge Editing for LLMs Papers](https://githu
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-18._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
