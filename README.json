@@ -44,7 +44,7 @@
                 "archived": false,
                 "id": 814138036,
                 "language": "Python",
-                "last_commit": "2026-08-18T22:40:47Z",
+                "last_commit": "2026-08-19T12:11:08Z",
                 "owner": "LiveBench",
                 "repo": "LiveBench",
                 "stars": 1288
@@ -943,8 +943,9 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T11:01:42.734Z",
+    "last_updated": "2026-08-19T12:22:50.284Z",
     "original_repository": "lyy1994/awesome-data-contamination",
+    "original_repository_id": 738133733,
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
     "enhanced_repository": "enhansome/enhansome-data-contamination",
     "enhanced_repository_description": null,
