@@ -944,7 +944,7 @@ A reference list of contamination detectors and contamination indices is as foll
 
 Some open-sourced evaluation tools provide the **decontamination** option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:
 
-* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,716 | 🐛 946 | 🌐 Python | 📅 2026-08-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,716 | 🐛 946 | 🌐 Python | 📅 2026-08-14]
+* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,723 | 🐛 949 | 🌐 Python | 📅 2026-08-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,723 | 🐛 949 | 🌐 Python | 📅 2026-08-14]
 * [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator) ⭐ 325 | 🐛 4 | 🌐 Python | 📅 2023-12-20
 * ......
 
@@ -1015,7 +1015,7 @@ There are cases where we miss important work in this field. We welcome opening P
 
 ## 🤝 Acknowledgement
 
-We referred to the template of [Knowledge Editing for LLMs Papers](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐ 1,246 | 🐛 0 | 📅 2026-06-25 when building this paper list. Thanks to its authors for their impressive work!
+We referred to the template of [Knowledge Editing for LLMs Papers](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐ 1,246 | 🐛 0 | 📅 2026-08-20 when building this paper list. Thanks to its authors for their impressive work!
 
 ***
 
@@ -1042,4 +1042,4 @@ We referred to the template of [Knowledge Editing for LLMs Papers](https://githu
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-20._
