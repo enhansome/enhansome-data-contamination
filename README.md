@@ -76,7 +76,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     </details>
 3. **LiveBench: A Challenging, Contamination-Free LLM Benchmark** (GitHub, 14 June 2024) ![](https://img.shields.io/badge/Preventative-blue)![](https://img.shields.io/badge/Dataset-orange) <br />
    *Colin White, Samuel Dooley, Manley Roberts, Arka Pal, Benjamin Feuer, Siddhartha Jain, Ravid Shwartz-Ziv, Neel Jain, Khalid Saifullah, Siddartha Naidu, Chinmay Hegde, Yann LeCun, Tom Goldstein, Willie Neiswanger, Micah Goldblum*
-   \[[paper](https://livebench.ai/livebench.pdf)] \[[code](https://github.com/LiveBench/LiveBench) ⭐ 1,290 | 🐛 176 | 🌐 Python | 📅 2026-08-19]
+   \[[paper](https://livebench.ai/livebench.pdf)] \[[code](https://github.com/LiveBench/LiveBench) ⭐ 1,290 | 🐛 177 | 🌐 Python | 📅 2026-08-22]
     <details><summary><b>Abstract</b></summary>
     Test set contamination, wherein test data from a benchmark ends up in a newer model’s training set, is a well-documented obstacle for fair LLM evaluation and can quickly render benchmarks obsolete. To mitigate this, many recent benchmarks crowdsource new prompts and evaluations from human or LLM judges; however, these can introduce significant biases, and break down when scoring hard questions. In this work, we introduce a new benchmark for LLMs designed to be immune to both test set contamination and the pitfalls of LLM judging and human crowdsourcing. We release LiveBench, the first benchmark that (1) contains frequently updated questions from recent information sources, (2) scores answers automatically according to objective ground-truth values, and (3) contains a wide variety of challenging tasks, spanning math, coding, reasoning, language, instruction following, and data analysis. To achieve this, LiveBench contains questions that are based on recently-released math competitions, arXiv papers, news articles, and datasets, and it contains harder, contamination-free versions of tasks from previous benchmarks such as Big-Bench Hard, AMPS, bAbI, and IFEval. We evaluate many prominent closed-source models, as well as dozens of open-source models ranging from 0.5B to 110B in size. LiveBench is difficult, with top models achieving below 60% accuracy. We release all questions, code, and model answers. Questions will be added and updated on a monthly basis, and we will release new tasks and harder versions of tasks over time so that LiveBench can distinguish between the capabilities of LLMs as they improve in the future. We welcome community engagement and collaboration for expanding the benchmark tasks and models.
     </details>
@@ -94,14 +94,14 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     </details>
 6. **MathArena: Evaluating LLMs on Uncontaminated Math Competitions** (Feb 2025) ![](https://img.shields.io/badge/Preventative-blue) <br />
    *Mislav Balunović and Jasper Dekoninck and Ivo Petrov and Nikola Jovanović and Martin Vechev*
-   \[[website](https://matharena.ai/)] \[[code](https://github.com/eth-sri/matharena) ⭐ 279 | 🐛 6 | 🌐 Python | 📅 2026-06-23]
+   \[[website](https://matharena.ai/)] \[[code](https://github.com/eth-sri/matharena) ⭐ 278 | 🐛 6 | 🌐 Python | 📅 2026-06-23]
 
     <details><summary><b>Abstract</b></summary>
     MathArena is a platform for evaluation of LLMs on the latest math competitions and olympiads. Our mission is rigorous assessment of the reasoning and generalization capabilities of LLMs on new math problems which the models have not seen during training. To ensure a fair and uncontaminated evaluation, we exclusively test models on competitions that took place after their release, avoiding retroactive assessments on potentially leaked or pre-trained material. By performing standardized evaluation we ensure model scores are actually comparable and are not dependent on the specific evaluation setup of the model provider.
 
    To show the model performance, we publish a leaderboard for each competition showing the scores of different models individual problems. Additionally, we will include a main table that includes model performance on all competitions. To evaluate performance, we run each model 4 times on each problem, computing the average score and the cost of the model (in USD) across all runs.
 
-   We open sourced our evaluation code at: <https://github.com/eth-sri/matharena> ⭐ 279 | 🐛 6 | 🌐 Python | 📅 2026-06-23.
+   We open sourced our evaluation code at: <https://github.com/eth-sri/matharena> ⭐ 278 | 🐛 6 | 🌐 Python | 📅 2026-06-23.
 
     </details>
 7. **MixEval: Deriving Wisdom of the Crowd from LLM Benchmark Mixtures** (NeurIPS 2024) ![](https://img.shields.io/badge/Preventative-blue) <br />
@@ -944,7 +944,7 @@ A reference list of contamination detectors and contamination indices is as foll
 
 Some open-sourced evaluation tools provide the **decontamination** option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:
 
-* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,734 | 🐛 945 | 🌐 Python | 📅 2026-08-20 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,734 | 🐛 945 | 🌐 Python | 📅 2026-08-20]
+* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,741 | 🐛 942 | 🌐 Python | 📅 2026-08-21 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,741 | 🐛 942 | 🌐 Python | 📅 2026-08-21]
 * [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator) ⭐ 325 | 🐛 4 | 🌐 Python | 📅 2023-12-20
 * ......
 
@@ -1015,7 +1015,7 @@ There are cases where we miss important work in this field. We welcome opening P
 
 ## 🤝 Acknowledgement
 
-We referred to the template of [Knowledge Editing for LLMs Papers](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐ 1,246 | 🐛 0 | 📅 2026-08-20 when building this paper list. Thanks to its authors for their impressive work!
+We referred to the template of [Knowledge Editing for LLMs Papers](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐ 1,247 | 🐛 0 | 📅 2026-08-20 when building this paper list. Thanks to its authors for their impressive work!
 
 ***
 
@@ -1042,4 +1042,4 @@ We referred to the template of [Knowledge Editing for LLMs Papers](https://githu
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-21._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-22._
