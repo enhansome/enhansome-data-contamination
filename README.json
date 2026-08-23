@@ -17,7 +17,7 @@
                 "last_commit": "2026-08-01T01:23:17Z",
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2882
+                "stars": 2884
               }
             },
             {
@@ -44,7 +44,7 @@
                 "archived": false,
                 "id": 814138036,
                 "language": "Python",
-                "last_commit": "2026-08-22T04:55:30Z",
+                "last_commit": "2026-08-22T21:05:55Z",
                 "owner": "LiveBench",
                 "repo": "LiveBench",
                 "stars": 1290
@@ -212,7 +212,7 @@
                 "last_commit": "2024-03-26T20:37:39Z",
                 "owner": "casmlab",
                 "repo": "NPHardEval",
-                "stars": 65
+                "stars": 66
               }
             },
             {
@@ -912,10 +912,10 @@
                 "archived": false,
                 "id": 290909192,
                 "language": "Python",
-                "last_commit": "2026-08-21T14:56:54Z",
+                "last_commit": "2026-08-22T22:59:11Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13741
+                "stars": 13750
               }
             },
             {
@@ -943,7 +943,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T10:59:04.164Z",
+    "last_updated": "2026-08-23T10:59:17.487Z",
     "original_repository": "lyy1994/awesome-data-contamination",
     "original_repository_id": 738133733,
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
