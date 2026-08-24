@@ -890,9 +890,9 @@ Many contamination detection work and contamination indices are done on *open-so
 
 There are also some recent efforts to create datasets tailored to contamination detection, such as:
 
+* [PatentMIA](https://github.com/zhang-wei-chao/DC-PDD) ⭐ 23 | 🐛 6 | 🌐 Python | 📅 2025-05-21
 * [WikiMIA](https://huggingface.co/datasets/swj0419/WikiMIA)
 * [mock\_gsm8k\_test](https://huggingface.co/datasets/Skywork/mock_gsm8k_test)
-* [PatentMIA](https://github.com/zhang-wei-chao/DC-PDD) ⭐ 23 | 🐛 6 | 🌐 Python | 📅 2025-05-21
 * [MIMIR](https://huggingface.co/datasets/iamgroot42/mimir)
 * [WikiMIA-25](https://huggingface.co/datasets/SimMIA/WikiMIA-25)
 * ......
@@ -944,7 +944,7 @@ A reference list of contamination detectors and contamination indices is as foll
 
 Some open-sourced evaluation tools provide the **decontamination** option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:
 
-* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,770 | 🐛 949 | 🌐 Python | 📅 2026-08-22 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,770 | 🐛 949 | 🌐 Python | 📅 2026-08-22]
+* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 13,773 | 🐛 941 | 🌐 Python | 📅 2026-08-24 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 13,773 | 🐛 941 | 🌐 Python | 📅 2026-08-24]
 * [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator) ⭐ 325 | 🐛 4 | 🌐 Python | 📅 2023-12-20
 * ......
 

@@ -905,6 +905,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "PatentMIA",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 815817030,
+                "language": "Python",
+                "last_commit": "2025-05-21T03:39:06Z",
+                "owner": "zhang-wei-chao",
+                "repo": "DC-PDD",
+                "stars": 23
+              }
+            }
+          ],
+          "description": "Many contamination detection work and contamination indices are done on open-sourced pretraining corpora against interested existing benchmarks or datasets. Below is a non-exhaustive list of these popular choices:\nThere are also some recent efforts to create datasets tailored to contamination detection, such as:",
+          "node_type": "group",
+          "title": "📊 Datasets"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Language Model Evaluation Harness",
               "description": "[docs]",
               "children": [],
@@ -912,10 +934,10 @@
                 "archived": false,
                 "id": 290909192,
                 "language": "Python",
-                "last_commit": "2026-08-22T22:59:11Z",
+                "last_commit": "2026-08-24T13:52:45Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13770
+                "stars": 13773
               }
             },
             {
@@ -943,7 +965,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T11:06:51.004Z",
+    "last_updated": "2026-08-24T14:39:30.268Z",
     "original_repository": "lyy1994/awesome-data-contamination",
     "original_repository_id": 738133733,
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
