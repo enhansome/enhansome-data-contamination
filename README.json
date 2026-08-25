@@ -47,7 +47,7 @@
                 "last_commit": "2026-08-22T21:05:55Z",
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1292
+                "stars": 1293
               }
             },
             {
@@ -937,7 +937,7 @@
                 "last_commit": "2026-08-24T18:14:40Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13777
+                "stars": 13782
               }
             },
             {
@@ -965,7 +965,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:37:17.820Z",
+    "last_updated": "2026-08-25T11:04:20.607Z",
     "original_repository": "lyy1994/awesome-data-contamination",
     "original_repository_id": 738133733,
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
