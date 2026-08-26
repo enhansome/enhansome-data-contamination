@@ -47,7 +47,7 @@
                 "last_commit": "2026-08-22T21:05:55Z",
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1293
+                "stars": 1294
               }
             },
             {
@@ -502,21 +502,6 @@
             },
             {
               "node_type": "item",
-              "title": "Time Travel in LLMs: Tracing Data Contamination in Large Language Models (ICLR 2024) Shahriar Golchin, Mihai Surdeanu [paper",
-              "description": "] [code]",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 776209795,
-                "language": "Python",
-                "last_commit": "2024-06-11T04:32:05Z",
-                "owner": "shahriargolchin",
-                "repo": "time-travel-in-llms",
-                "stars": 15
-              }
-            },
-            {
-              "node_type": "item",
               "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models (arXiv, 10 Oct 2025) Yongding Tao, Tian Wang, Yihong Dong, Huanyu Liu, Kechi Zhang, Xiaolong Hu, Ge Li [paper",
               "description": "] [code]",
               "children": [],
@@ -528,6 +513,21 @@
                 "owner": "yongding-tao",
                 "repo": "RL-Data-Contamination",
                 "stars": 15
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Time Travel in LLMs: Tracing Data Contamination in Large Language Models (ICLR 2024) Shahriar Golchin, Mihai Surdeanu [paper",
+              "description": "] [code]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 776209795,
+                "language": "Python",
+                "last_commit": "2024-06-11T04:32:05Z",
+                "owner": "shahriargolchin",
+                "repo": "time-travel-in-llms",
+                "stars": 14
               }
             },
             {
@@ -937,7 +937,7 @@
                 "last_commit": "2026-08-24T18:14:40Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13782
+                "stars": 13796
               }
             },
             {
@@ -965,7 +965,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T11:04:20.607Z",
+    "last_updated": "2026-08-26T11:07:31.102Z",
     "original_repository": "lyy1994/awesome-data-contamination",
     "original_repository_id": 738133733,
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
