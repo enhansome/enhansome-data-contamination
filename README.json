@@ -17,7 +17,7 @@
                 "last_commit": "2026-08-01T01:23:17Z",
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2887
+                "stars": 2889
               }
             },
             {
@@ -47,7 +47,7 @@
                 "last_commit": "2026-08-26T18:55:40Z",
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1294
+                "stars": 1295
               }
             },
             {
@@ -934,10 +934,10 @@
                 "archived": false,
                 "id": 290909192,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:29:15Z",
+                "last_commit": "2026-08-27T18:12:08Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13809
+                "stars": 13814
               }
             },
             {
@@ -965,7 +965,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:36:40.411Z",
+    "last_updated": "2026-08-27T20:46:07.793Z",
     "original_repository_info": {
       "archived": false,
       "id": 738133733,
