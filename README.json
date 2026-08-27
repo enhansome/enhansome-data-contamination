@@ -17,7 +17,7 @@
                 "last_commit": "2026-08-01T01:23:17Z",
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2885
+                "stars": 2887
               }
             },
             {
@@ -44,7 +44,7 @@
                 "archived": false,
                 "id": 814138036,
                 "language": "Python",
-                "last_commit": "2026-08-22T21:05:55Z",
+                "last_commit": "2026-08-26T18:55:40Z",
                 "owner": "LiveBench",
                 "repo": "LiveBench",
                 "stars": 1294
@@ -934,10 +934,10 @@
                 "archived": false,
                 "id": 290909192,
                 "language": "Python",
-                "last_commit": "2026-08-24T18:14:40Z",
+                "last_commit": "2026-08-27T11:29:15Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13796
+                "stars": 13809
               }
             },
             {
@@ -965,9 +965,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-26T11:07:31.102Z",
-    "original_repository": "lyy1994/awesome-data-contamination",
-    "original_repository_id": 738133733,
+    "last_updated": "2026-08-27T11:36:40.411Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 738133733,
+      "language": null,
+      "last_commit": "2026-06-02T03:50:23Z",
+      "owner": "lyy1994",
+      "repo": "awesome-data-contamination",
+      "stars": 119
+    },
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
     "enhanced_repository": "enhansome/enhansome-data-contamination",
     "enhanced_repository_description": null,
