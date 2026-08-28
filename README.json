@@ -17,8 +17,9 @@
                 "last_commit": "2026-08-01T01:23:17Z",
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2889
-              }
+                "stars": 2890
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -33,7 +34,8 @@
                 "owner": "microsoftarchive",
                 "repo": "promptbench",
                 "stars": 2819
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -47,8 +49,9 @@
                 "last_commit": "2026-08-26T18:55:40Z",
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1295
-              }
+                "stars": 1296
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -63,7 +66,8 @@
                 "owner": "SeekingDream",
                 "repo": "Static-to-Dynamic-LLMEval",
                 "stars": 498
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -78,7 +82,8 @@
                 "owner": "lm-sys",
                 "repo": "llm-decontaminator",
                 "stars": 325
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -93,7 +98,8 @@
                 "owner": "eth-sri",
                 "repo": "matharena",
                 "stars": 278
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -108,7 +114,8 @@
                 "owner": "JinjieNi",
                 "repo": "MixEval",
                 "stars": 254
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -123,7 +130,8 @@
                 "owner": "swj0419",
                 "repo": "detect-pretrain-code",
                 "stars": 243
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -138,7 +146,8 @@
                 "owner": "microsoft",
                 "repo": "MMLU-CF",
                 "stars": 126
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -153,7 +162,8 @@
                 "owner": "ConsequentAI",
                 "repo": "fneval",
                 "stars": 90
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -168,7 +178,8 @@
                 "owner": "evo-eval",
                 "repo": "evoeval",
                 "stars": 84
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -183,7 +194,8 @@
                 "owner": "hitz-zentroa",
                 "repo": "lm-contamination",
                 "stars": 82
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -198,7 +210,8 @@
                 "owner": "seketeam",
                 "repo": "EvoCodeBench",
                 "stars": 71
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -213,7 +226,8 @@
                 "owner": "casmlab",
                 "repo": "NPHardEval",
                 "stars": 66
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -228,7 +242,8 @@
                 "owner": "LaVi-Lab",
                 "repo": "CLEVA",
                 "stars": 64
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -243,7 +258,8 @@
                 "owner": "ntunlp",
                 "repo": "LLMSanitize",
                 "stars": 61
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -258,7 +274,8 @@
                 "owner": "GAIR-NLP",
                 "repo": "benbench",
                 "stars": 61
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -273,7 +290,8 @@
                 "owner": "zjysteven",
                 "repo": "mink-plus-plus",
                 "stars": 60
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -288,7 +306,8 @@
                 "owner": "xuhaoxh",
                 "repo": "infini-gram-mini",
                 "stars": 58
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -303,7 +322,8 @@
                 "owner": "David-Li0406",
                 "repo": "Preference-Leakage",
                 "stars": 56
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -318,7 +338,8 @@
                 "owner": "liyucheng09",
                 "repo": "Contamination_Detector",
                 "stars": 52
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -333,7 +354,8 @@
                 "owner": "tatsu-lab",
                 "repo": "test_set_contamination",
                 "stars": 43
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -348,7 +370,8 @@
                 "owner": "pratyushmaini",
                 "repo": "llm_dataset_inference",
                 "stars": 41
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -363,7 +386,8 @@
                 "owner": "interpretml",
                 "repo": "LLM-Tabular-Memorization-Checker",
                 "stars": 40
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -378,7 +402,8 @@
                 "owner": "lfy79001",
                 "repo": "S3Eval",
                 "stars": 33
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -393,7 +418,8 @@
                 "owner": "liyucheng09",
                 "repo": "LatestEval",
                 "stars": 29
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -408,7 +434,8 @@
                 "owner": "mireshghallah",
                 "repo": "neighborhood-curvature-mia",
                 "stars": 27
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -423,7 +450,8 @@
                 "owner": "NanshineLoong",
                 "repo": "Self-Evolving-Benchmark",
                 "stars": 26
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -438,7 +466,8 @@
                 "owner": "zhang-wei-chao",
                 "repo": "DC-PDD",
                 "stars": 23
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -453,7 +482,8 @@
                 "owner": "mengtong0110",
                 "repo": "Tokenizer-MIA",
                 "stars": 21
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -468,7 +498,8 @@
                 "owner": "WisdomShell",
                 "repo": "FreeEval",
                 "stars": 19
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -483,7 +514,8 @@
                 "owner": "SALT-NLP",
                 "repo": "DARG",
                 "stars": 19
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -498,7 +530,8 @@
                 "owner": "MLLM-Data-Contamination",
                 "repo": "MM-Detect",
                 "stars": 18
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -513,7 +546,8 @@
                 "owner": "yongding-tao",
                 "repo": "RL-Data-Contamination",
                 "stars": 15
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -528,7 +562,8 @@
                 "owner": "shahriargolchin",
                 "repo": "time-travel-in-llms",
                 "stars": 14
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -543,7 +578,8 @@
                 "owner": "lizhouf",
                 "repo": "NPHardEval4V",
                 "stars": 12
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -558,7 +594,8 @@
                 "owner": "shangdatalab",
                 "repo": "Deep-Contam",
                 "stars": 12
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -573,7 +610,8 @@
                 "owner": "THU-KEG",
                 "repo": "DICE",
                 "stars": 11
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -588,7 +626,8 @@
                 "owner": "ruoyuxie",
                 "repo": "recall",
                 "stars": 11
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -603,7 +642,8 @@
                 "owner": "ASTRAL-Group",
                 "repo": "LRM_Conta_Detection_Arena",
                 "stars": 11
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -618,7 +658,8 @@
                 "owner": "WangCheng0116",
                 "repo": "CON-RECALL",
                 "stars": 9
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -633,7 +674,8 @@
                 "owner": "deeplearning-wisc",
                 "repo": "kernel-divergence-score",
                 "stars": 8
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -648,7 +690,8 @@
                 "owner": "LeiLiLab",
                 "repo": "DE-COP",
                 "stars": 7
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -663,7 +706,8 @@
                 "owner": "stanford-crfm",
                 "repo": "data-overlap",
                 "stars": 7
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -678,7 +722,8 @@
                 "owner": "gyuwankim",
                 "repo": "em-mia",
                 "stars": 7
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -693,7 +738,8 @@
                 "owner": "simmia2026",
                 "repo": "SimMIA",
                 "stars": 7
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -708,7 +754,8 @@
                 "owner": "eth-sri",
                 "repo": "ConStat",
                 "stars": 6
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -723,7 +770,8 @@
                 "owner": "nlp-titech",
                 "repo": "samia",
                 "stars": 6
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -738,7 +786,8 @@
                 "owner": "Ashura5",
                 "repo": "TreeEval",
                 "stars": 5
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -753,7 +802,8 @@
                 "owner": "RohithKuditipudi",
                 "repo": "blackbox-model-tracing",
                 "stars": 5
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -768,7 +818,8 @@
                 "owner": "qbetterk",
                 "repo": "VarBench",
                 "stars": 3
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -783,7 +834,8 @@
                 "owner": "chengez",
                 "repo": "DyePack",
                 "stars": 2
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -798,7 +850,8 @@
                 "owner": "STAIR-BUPT",
                 "repo": "VeilProbe",
                 "stars": 2
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -813,7 +866,8 @@
                 "owner": "zhenlong-liu",
                 "repo": "Provable_Training_Data_Identification",
                 "stars": 2
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -828,7 +882,8 @@
                 "owner": "chengxuphd",
                 "repo": "dcr",
                 "stars": 1
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -843,7 +898,8 @@
                 "owner": "eyalgerman",
                 "repo": "Tab-MIA",
                 "stars": 1
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -858,7 +914,8 @@
                 "owner": "RuijieH",
                 "repo": "LNE-Blocking",
                 "stars": 1
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -873,7 +930,8 @@
                 "owner": "zhenlong-liu",
                 "repo": "BMIA",
                 "stars": 1
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -888,7 +946,8 @@
                 "owner": "Jeli04",
                 "repo": "spiking-tsc",
                 "stars": 0
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             }
           ],
           "description": "[!Note] The list is sorted by the date of the first time the paper was released.",
@@ -916,7 +975,8 @@
                 "owner": "zhang-wei-chao",
                 "repo": "DC-PDD",
                 "stars": 23
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             }
           ],
           "description": "Many contamination detection work and contamination indices are done on open-sourced pretraining corpora against interested existing benchmarks or datasets. Below is a non-exhaustive list of these popular choices:\nThere are also some recent efforts to create datasets tailored to contamination detection, such as:",
@@ -934,11 +994,12 @@
                 "archived": false,
                 "id": 290909192,
                 "language": "Python",
-                "last_commit": "2026-08-27T18:12:08Z",
+                "last_commit": "2026-08-28T19:42:50Z",
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13814
-              }
+                "stars": 13821
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             },
             {
               "node_type": "item",
@@ -953,7 +1014,8 @@
                 "owner": "lm-sys",
                 "repo": "llm-decontaminator",
                 "stars": 325
-              }
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
             }
           ],
           "description": "In general, there are two types of data contamination tools: contamination detector, which identifies the contamination risk for a given test set w/ or w/o knowing the pretraining corpus, and contamination index, which documents the contamination risk of public benchmarks against foundation models or pretraining corpora and is utilized for a trustworthy comparison of foundation models.\nContamination index could be a product of contamination detectors. However, proprietary models do not disclose details about their pretraining corpora, invalidating most contamination detectors. Hence, relevant contamination statistics of these models can only be collected in the released paper or technical reports and are not reproducible in general.\nA reference list of contamination detectors and contamination indices is as follows:\n[!Note] We explicitly mark the entrance with if the mentioned tools possess multiple functions.\nSome open-sourced evaluation tools provide the decontamination option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:",
@@ -965,7 +1027,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T20:46:07.793Z",
+    "last_updated": "2026-08-28T21:15:07.323Z",
     "original_repository_info": {
       "archived": false,
       "id": 738133733,
