@@ -12,12 +12,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.",
+                "homepage": "https://crfm.stanford.edu/helm",
                 "id": 432968463,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-01T01:23:17Z",
+                "open_issues": 98,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2890
+                "stars": 2890,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -28,12 +33,26 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A unified evaluation framework for large language models",
+                "homepage": "http://aka.ms/promptbench",
                 "id": 653171718,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-02-20T18:55:32Z",
+                "open_issues": 2,
                 "owner": "microsoftarchive",
                 "repo": "promptbench",
-                "stars": 2819
+                "stars": 2819,
+                "topics": [
+                  "adversarial-attacks",
+                  "benchmark",
+                  "chatgpt",
+                  "evaluation",
+                  "large-language-models",
+                  "prompt",
+                  "prompt-engineering",
+                  "robustness"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -44,12 +63,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "LiveBench: A Challenging, Contamination-Free LLM Benchmark",
+                "homepage": null,
                 "id": 814138036,
                 "language": "Python",
-                "last_commit": "2026-08-26T18:55:40Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T03:36:20Z",
+                "open_issues": 171,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1296
+                "stars": 1296,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -60,12 +84,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The official GitHub repository of the paper \"Recent advances in large language model benchmarks against data contamination: From static to dynamic evaluation\"",
+                "homepage": "https://arxiv.org/abs/2502.17521",
                 "id": 936371491,
                 "language": null,
+                "license": null,
                 "last_commit": "2026-08-11T13:57:47Z",
+                "open_issues": 0,
                 "owner": "SeekingDream",
                 "repo": "Static-to-Dynamic-LLMEval",
-                "stars": 498
+                "stars": 498,
+                "topics": [
+                  "benchmark",
+                  "dynamic-evaluation",
+                  "evaluation",
+                  "large-language-model",
+                  "llm",
+                  "llms",
+                  "testing"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -76,12 +113,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Code for the paper \"Rethinking Benchmark and Contamination for Language Models with Rephrased Samples\"",
+                "homepage": null,
                 "id": 705972277,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2023-12-20T22:33:26Z",
+                "open_issues": 4,
                 "owner": "lm-sys",
                 "repo": "llm-decontaminator",
-                "stars": 325
+                "stars": 325,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -92,12 +134,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Evaluation of LLMs on latest math competitions",
+                "homepage": "https://matharena.ai",
                 "id": 931732539,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-06-23T22:50:27Z",
+                "open_issues": 6,
                 "owner": "eth-sri",
                 "repo": "matharena",
-                "stars": 278
+                "stars": 278,
+                "topics": [
+                  "evaluating-models",
+                  "llm"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -108,12 +158,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The official evaluation suite and dynamic data release for MixEval.",
+                "homepage": "https://mixeval.github.io/",
                 "id": 808982778,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-11-10T02:23:50Z",
+                "open_issues": 7,
                 "owner": "JinjieNi",
                 "repo": "MixEval",
-                "stars": 254
+                "stars": 254,
+                "topics": [
+                  "benchmark",
+                  "benchmark-mixture",
+                  "benchmarking-framework",
+                  "benchmarking-suite",
+                  "evaluation",
+                  "evaluation-framework",
+                  "foundation-models",
+                  "large-language-model",
+                  "large-language-models",
+                  "large-multimodal-models",
+                  "llm-evaluation",
+                  "llm-evaluation-framework",
+                  "llm-inference",
+                  "mixeval"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -124,12 +194,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This repository provides an original implementation of Detecting Pretraining Data from Large Language Models by *Weijia Shi, *Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu , Terra Blevins , Danqi Chen , Luke Zettlemoyer.",
+                "homepage": "https://swj0419.github.io/detect-pretrain.github.io/",
                 "id": 701108298,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2023-11-03T08:14:44Z",
+                "open_issues": 13,
                 "owner": "swj0419",
                 "repo": "detect-pretrain-code",
-                "stars": 243
+                "stars": 243,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -140,12 +215,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Contamination-free Multi-task Language Understanding Benchmark [Official, ACL 2025]",
+                "homepage": "https://arxiv.org/pdf/2412.15194",
                 "id": 897452247,
                 "language": null,
+                "license": "MIT",
                 "last_commit": "2025-05-17T16:52:16Z",
+                "open_issues": 0,
                 "owner": "microsoft",
                 "repo": "MMLU-CF",
-                "stars": 126
+                "stars": 126,
+                "topics": [
+                  "benchmark",
+                  "contamination",
+                  "llm",
+                  "mmlu"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -156,12 +241,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Functional Benchmarks and the Reasoning Gap",
+                "homepage": "https://www.consequent.ai",
                 "id": 764990631,
                 "language": "TeX",
+                "license": "GPL-3.0",
                 "last_commit": "2026-07-23T13:52:43Z",
+                "open_issues": 11,
                 "owner": "ConsequentAI",
                 "repo": "fneval",
-                "stars": 90
+                "stars": 90,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -172,12 +262,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "EvoEval: Evolving Coding Benchmarks via LLM",
+                "homepage": "https://evo-eval.github.io/",
                 "id": 777662906,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-04-06T23:26:59Z",
+                "open_issues": 1,
                 "owner": "evo-eval",
                 "repo": "evoeval",
-                "stars": 84
+                "stars": 84,
+                "topics": [
+                  "benchmark",
+                  "chatgpt",
+                  "claude-3",
+                  "gemini-pro",
+                  "gpt-4",
+                  "large-language-models",
+                  "llm",
+                  "program-synthesis",
+                  "testing"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -188,12 +293,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The LM Contamination Index is a manually created database of contamination evidences for LMs.",
+                "homepage": "https://hitz-zentroa.github.io/lm-contamination/",
                 "id": 645280189,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-04-11T13:13:46Z",
+                "open_issues": 0,
                 "owner": "hitz-zentroa",
                 "repo": "lm-contamination",
-                "stars": 82
+                "stars": 82,
+                "topics": [
+                  "chatgpt",
+                  "contamination",
+                  "language-model",
+                  "large-language-models",
+                  "llm",
+                  "lm"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -204,12 +321,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An Evolving Code Generation Benchmark Aligned with Real-world Code Repositories",
+                "homepage": null,
                 "id": 777207957,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-08-15T02:47:59Z",
+                "open_issues": 10,
                 "owner": "seketeam",
                 "repo": "EvoCodeBench",
-                "stars": 71
+                "stars": 71,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -220,12 +342,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Repository for NPHardEval, a quantified-dynamic benchmark of LLMs",
+                "homepage": null,
                 "id": 710085475,
                 "language": "Jupyter Notebook",
+                "license": "Apache-2.0",
                 "last_commit": "2024-03-26T20:37:39Z",
+                "open_issues": 2,
                 "owner": "casmlab",
                 "repo": "NPHardEval",
-                "stars": 66
+                "stars": 66,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -236,12 +363,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[EMNLP 2023 Demo] \"CLEVA: Chinese Language Models EVAluation Platform\"",
+                "homepage": "http://www.lavicleva.com/",
                 "id": 705455621,
                 "language": "Shell",
+                "license": "NOASSERTION",
                 "last_commit": "2025-05-16T06:14:01Z",
+                "open_issues": 1,
                 "owner": "LaVi-Lab",
                 "repo": "CLEVA",
-                "stars": 64
+                "stars": 64,
+                "topics": [
+                  "chinese",
+                  "contamination",
+                  "english",
+                  "evaluation",
+                  "nlp"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -252,12 +390,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An open-source library for contamination detection in NLP datasets and Large Language Models (LLMs).",
+                "homepage": null,
                 "id": 761552614,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-08-13T20:34:35Z",
+                "open_issues": 1,
                 "owner": "ntunlp",
                 "repo": "LLMSanitize",
-                "stars": 61
+                "stars": 61,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -268,12 +411,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Benchmarking Benchmark Leakage in Large Language Models",
+                "homepage": "https://gair-nlp.github.io/benbench/",
                 "id": 723615596,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2024-05-20T01:59:32Z",
+                "open_issues": 4,
                 "owner": "GAIR-NLP",
                 "repo": "benbench",
-                "stars": 61
+                "stars": 61,
+                "topics": [
+                  "benchmarks",
+                  "dataset",
+                  "large-language-models",
+                  "leakage-detection"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -284,12 +437,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[ICLR'25 Spotlight] Min-K%++: Improved baseline for detecting pre-training data of LLMs",
+                "homepage": "https://zjysteven.github.io/mink-plus-plus/",
                 "id": 781043217,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2025-05-26T17:07:57Z",
+                "open_issues": 0,
                 "owner": "zjysteven",
                 "repo": "mink-plus-plus",
-                "stars": 60
+                "stars": 60,
+                "topics": [
+                  "iclr2025",
+                  "llama",
+                  "llm",
+                  "mamba",
+                  "membership-inference-attack",
+                  "pretraining-data-detection",
+                  "pythia"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -300,12 +466,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 839560086,
                 "language": "C++",
+                "license": "Apache-2.0",
                 "last_commit": "2025-09-26T23:28:24Z",
+                "open_issues": 6,
                 "owner": "xuhaoxh",
                 "repo": "infini-gram-mini",
-                "stars": 58
+                "stars": 58,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -316,12 +487,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 925983833,
                 "language": "Jupyter Notebook",
+                "license": null,
                 "last_commit": "2025-05-22T21:50:04Z",
+                "open_issues": 0,
                 "owner": "David-Li0406",
                 "repo": "Preference-Leakage",
-                "stars": 56
+                "stars": 56,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -332,12 +508,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Lightweight tool to identify Data Contamination in LLMs evaluation",
+                "homepage": null,
                 "id": 693252726,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-03-08T21:05:13Z",
+                "open_issues": 0,
                 "owner": "liyucheng09",
                 "repo": "Contamination_Detector",
-                "stars": 52
+                "stars": 52,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -348,12 +529,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 710220501,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2023-11-07T21:22:57Z",
+                "open_issues": 4,
                 "owner": "tatsu-lab",
                 "repo": "test_set_contamination",
-                "stars": 43
+                "stars": 43,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -364,12 +550,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official Repository for Dataset Inference for LLMs",
+                "homepage": null,
                 "id": 813373640,
                 "language": "Jupyter Notebook",
+                "license": "MIT",
                 "last_commit": "2024-07-25T07:17:22Z",
+                "open_issues": 1,
                 "owner": "pratyushmaini",
                 "repo": "llm_dataset_inference",
-                "stars": 41
+                "stars": 41,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -380,12 +571,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Testing Language Models for Memorization of Tabular Datasets.",
+                "homepage": "http://interpret.ml/LLM-Tabular-Memorization-Checker/api_reference.html",
                 "id": 718758254,
                 "language": "Jupyter Notebook",
+                "license": "MIT",
                 "last_commit": "2025-02-10T12:05:51Z",
+                "open_issues": 0,
                 "owner": "interpretml",
                 "repo": "LLM-Tabular-Memorization-Checker",
-                "stars": 40
+                "stars": 40,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -396,12 +592,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[NAACL 2024] A Synthetic, Scalable and Systematic Evaluation Suite for Large Language Models",
+                "homepage": null,
                 "id": 670073156,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-06-10T17:54:46Z",
+                "open_issues": 1,
                 "owner": "lfy79001",
                 "repo": "S3Eval",
-                "stars": 33
+                "stars": 33,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -412,12 +613,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Latest Evaluation Toolkit (LatestEval). Assessing the language models with latest, uncontaminated materials.",
+                "homepage": null,
                 "id": 651194556,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-02-17T18:12:03Z",
+                "open_issues": 0,
                 "owner": "liyucheng09",
                 "repo": "LatestEval",
-                "stars": 29
+                "stars": 29,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -428,12 +634,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 675523942,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2023-08-18T07:12:18Z",
+                "open_issues": 1,
                 "owner": "mireshghallah",
                 "repo": "neighborhood-curvature-mia",
-                "stars": 27
+                "stars": 27,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -444,12 +655,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A framework for evolving and testing question-answering datasets with various models.",
+                "homepage": null,
                 "id": 756923712,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-02-28T15:23:11Z",
+                "open_issues": 0,
                 "owner": "NanshineLoong",
                 "repo": "Self-Evolving-Benchmark",
-                "stars": 26
+                "stars": 26,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -460,12 +676,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This repository presents the original implementation of Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method by Weichao Zhang, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Yixing Fan, Xueqi Cheng",
+                "homepage": null,
                 "id": 815817030,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-05-21T03:39:06Z",
+                "open_issues": 6,
                 "owner": "zhang-wei-chao",
                 "repo": "DC-PDD",
-                "stars": 23
+                "stars": 23,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -476,12 +697,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[USENIX Security 2026] Membership Inference Attacks on Tokenizers of Large Language Models",
+                "homepage": null,
                 "id": 1040408663,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-22T07:03:28Z",
+                "open_issues": 0,
                 "owner": "mengtong0110",
                 "repo": "Tokenizer-MIA",
-                "stars": 21
+                "stars": 21,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -492,12 +718,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 773573852,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-08-03T07:46:44Z",
+                "open_issues": 0,
                 "owner": "WisdomShell",
                 "repo": "FreeEval",
-                "stars": 19
+                "stars": 19,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -508,12 +739,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The official repo for DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph",
+                "homepage": null,
                 "id": 812393456,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-10-13T15:04:13Z",
+                "open_issues": 0,
                 "owner": "SALT-NLP",
                 "repo": "DARG",
-                "stars": 19
+                "stars": 19,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -524,12 +760,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Both Text and Images Leaked! A Systematic Analysis of Data Contamination in Multimodal LLM | EMNLP 2025 Findings",
+                "homepage": null,
                 "id": 883040384,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-10-17T06:48:08Z",
+                "open_issues": 0,
                 "owner": "MLLM-Data-Contamination",
                 "repo": "MM-Detect",
-                "stars": 18
+                "stars": 18,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -540,12 +781,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1064523300,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-10-13T11:35:54Z",
+                "open_issues": 3,
                 "owner": "yongding-tao",
                 "repo": "RL-Data-Contamination",
-                "stars": 15
+                "stars": 15,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -556,12 +802,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The official repository for the paper entitled \"Time Travel in LLMs: Tracing Data Contamination in Large Language Models.\"",
+                "homepage": "https://openreview.net/forum?id=2Rwq6c3tvr",
                 "id": 776209795,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-06-11T04:32:05Z",
+                "open_issues": 0,
                 "owner": "shahriargolchin",
                 "repo": "time-travel-in-llms",
-                "stars": 14
+                "stars": 14,
+                "topics": [
+                  "data-contamination",
+                  "guided-instruction",
+                  "large-language-models",
+                  "llms",
+                  "memorization"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -572,12 +829,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 747999788,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-03-08T16:01:55Z",
+                "open_issues": 2,
                 "owner": "lizhouf",
                 "repo": "NPHardEval4V",
-                "stars": 12
+                "stars": 12,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -588,12 +850,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official implementation of Data Contamination Can Cross Language Barriers",
+                "homepage": null,
                 "id": 815986170,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-09-11T19:04:03Z",
+                "open_issues": 0,
                 "owner": "shangdatalab",
                 "repo": "Deep-Contam",
-                "stars": 12
+                "stars": 12,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -604,12 +871,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "DICE: Detecting In-distribution Data Contamination with LLM's Internal State",
+                "homepage": "https://arxiv.org/pdf/2406.04197",
                 "id": 806315236,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2024-09-21T12:48:41Z",
+                "open_issues": 0,
                 "owner": "THU-KEG",
                 "repo": "DICE",
-                "stars": 11
+                "stars": 11,
+                "topics": [
+                  "benchmark",
+                  "data-contamination",
+                  "fine-tuning-llm",
+                  "gsm8k",
+                  "llm",
+                  "sft"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -620,12 +899,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[EMNLP 24] ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods. ",
+                "homepage": "https://royxie.com/recall-project-page/",
                 "id": 818109926,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-11-27T18:44:32Z",
+                "open_issues": 0,
                 "owner": "ruoyuxie",
                 "repo": "recall",
-                "stars": 11
+                "stars": 11,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -636,12 +920,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[ICLR 2026] Official implementation for \"On the Fragility of Benchmark Contamination Detection in Reasoning Models\"",
+                "homepage": "https://www.arxiv.org/abs/2510.02386",
                 "id": 1066052666,
                 "language": "Jupyter Notebook",
+                "license": null,
                 "last_commit": "2025-10-09T04:41:03Z",
+                "open_issues": 0,
                 "owner": "ASTRAL-Group",
                 "repo": "LRM_Conta_Detection_Arena",
-                "stars": 11
+                "stars": 11,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -652,12 +941,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[COLING 2025] Con-ReCall: Detecting Pre-training Data in LLMs via Contrastive Decoding",
+                "homepage": "https://arxiv.org/pdf/2409.03363",
                 "id": 828741280,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-11-16T17:44:05Z",
+                "open_issues": 0,
                 "owner": "WangCheng0116",
                 "repo": "CON-RECALL",
-                "stars": 9
+                "stars": 9,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -668,12 +962,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official implementation of ICML 2025 paper, \"How Contaminated Is Your Benchmark? Measuring Dataset Leakage in Large Language Models with Kernel Divergence\"",
+                "homepage": null,
                 "id": 977918416,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-07-20T05:35:23Z",
+                "open_issues": 0,
                 "owner": "deeplearning-wisc",
                 "repo": "kernel-divergence-score",
-                "stars": 8
+                "stars": 8,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -684,12 +983,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 810918057,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-06-05T15:44:37Z",
+                "open_issues": 2,
                 "owner": "LeiLiLab",
                 "repo": "DE-COP",
-                "stars": 7
+                "stars": 7,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -700,12 +1004,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 735111198,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-03-27T00:16:42Z",
+                "open_issues": 0,
                 "owner": "stanford-crfm",
                 "repo": "data-overlap",
-                "stars": 7
+                "stars": 7,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -716,12 +1025,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[EACL 2026] Detecting Training Data of Large Language Models via Expectation Maximization",
+                "homepage": "https://arxiv.org/abs/2410.07582",
                 "id": 826527776,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-10-11T02:03:19Z",
+                "open_issues": 0,
                 "owner": "gyuwankim",
                 "repo": "em-mia",
-                "stars": 7
+                "stars": 7,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -732,12 +1046,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The code for paper 'Membership Inference on LLMs in the Wild'",
+                "homepage": "https://simmia2026.github.io",
                 "id": 1137250075,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-01-19T05:56:07Z",
+                "open_issues": 0,
                 "owner": "simmia2026",
                 "repo": "SimMIA",
-                "stars": 7
+                "stars": 7,
+                "topics": [
+                  "black-box",
+                  "evaluation",
+                  "inference-attack",
+                  "llm-inference"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -748,12 +1072,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A statistical test for contamination detection in language models.",
+                "homepage": null,
                 "id": 804901719,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2024-07-29T12:40:22Z",
+                "open_issues": 0,
                 "owner": "eth-sri",
                 "repo": "ConStat",
-                "stars": 6
+                "stars": 6,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -764,12 +1093,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Source code for paper \"Sampling-based Pseudo-Likelihood for Membership Inference Attacks\".",
+                "homepage": null,
                 "id": 787817303,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2024-04-18T16:19:08Z",
+                "open_issues": 1,
                 "owner": "nlp-titech",
                 "repo": "samia",
-                "stars": 6
+                "stars": 6,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -780,12 +1114,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "TreeEval: Benchmark-Free Evaluation of Large Language Models through Tree Planning",
+                "homepage": null,
                 "id": 756005439,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-12-10T06:36:06Z",
+                "open_issues": 0,
                 "owner": "Ashura5",
                 "repo": "TreeEval",
-                "stars": 5
+                "stars": 5,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -796,12 +1135,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 838197576,
                 "language": "Jupyter Notebook",
+                "license": null,
                 "last_commit": "2026-02-12T19:56:42Z",
+                "open_issues": 1,
                 "owner": "RohithKuditipudi",
                 "repo": "blackbox-model-tracing",
-                "stars": 5
+                "stars": 5,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -812,12 +1156,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 818430085,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2024-06-27T17:17:05Z",
+                "open_issues": 1,
                 "owner": "qbetterk",
                 "repo": "VarBench",
-                "stars": 3
+                "stars": 3,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -828,12 +1177,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[EMNLP 2025] Implementation for paper \"DyePack: Provably Flagging Test Set Contamination in LLMs Using Backdoors\"",
+                "homepage": null,
                 "id": 993522532,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-08-23T02:13:53Z",
+                "open_issues": 0,
                 "owner": "chengez",
                 "repo": "DyePack",
-                "stars": 2
+                "stars": 2,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -844,12 +1198,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 983727834,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-05-15T06:17:10Z",
+                "open_issues": 0,
                 "owner": "STAIR-BUPT",
                 "repo": "VeilProbe",
-                "stars": 2
+                "stars": 2,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -860,12 +1219,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[ICML'26] Provable Training Data Identification for Large Language Models",
+                "homepage": null,
                 "id": 1063945206,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-25T08:13:08Z",
+                "open_issues": 0,
                 "owner": "zhenlong-liu",
                 "repo": "Provable_Training_Data_Identification",
-                "stars": 2
+                "stars": 2,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -876,12 +1240,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1020261085,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2025-11-01T02:00:35Z",
+                "open_issues": 0,
                 "owner": "chengxuphd",
                 "repo": "dcr",
-                "stars": 1
+                "stars": 1,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -892,12 +1261,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Tab-MIA: A Benchmark for Membership Inference Attacks on Tabular Data",
+                "homepage": null,
                 "id": 979349103,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-03-20T10:18:26Z",
+                "open_issues": 1,
                 "owner": "eyalgerman",
                 "repo": "Tab-MIA",
-                "stars": 1
+                "stars": 1,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -908,12 +1282,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Implemetation of the paper \"LNE-Blocking: An Efficient Framework for Contamination Mitigation Evaluation on Large Language Models\".",
+                "homepage": null,
                 "id": 1053603117,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-09-23T15:42:29Z",
+                "open_issues": 0,
                 "owner": "RuijieH",
                 "repo": "LNE-Blocking",
-                "stars": 1
+                "stars": 1,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -924,12 +1303,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "[ICML'26] How does Bayesian Sampling help Membership Inference Attacks?",
+                "homepage": null,
                 "id": 960845536,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-05-25T07:12:29Z",
+                "open_issues": 0,
                 "owner": "zhenlong-liu",
                 "repo": "BMIA",
-                "stars": 1
+                "stars": 1,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -940,12 +1324,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official experiments for \"Spiking the training data to adjust for test set contamination\".",
+                "homepage": null,
                 "id": 1205401621,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-05-13T00:53:49Z",
+                "open_issues": 0,
                 "owner": "Jeli04",
                 "repo": "spiking-tsc",
-                "stars": 0
+                "stars": 0,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             }
@@ -969,12 +1358,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "This repository presents the original implementation of Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method by Weichao Zhang, Ruqing Zhang, Jiafeng Guo, Maarten de Rijke, Yixing Fan, Xueqi Cheng",
+                "homepage": null,
                 "id": 815817030,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-05-21T03:39:06Z",
+                "open_issues": 6,
                 "owner": "zhang-wei-chao",
                 "repo": "DC-PDD",
-                "stars": 23
+                "stars": 23,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             }
@@ -992,12 +1386,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A framework for few-shot evaluation of language models.",
+                "homepage": "https://www.eleuther.ai",
                 "id": 290909192,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-28T19:42:50Z",
+                "open_issues": 911,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13821
+                "stars": 13823,
+                "topics": [
+                  "evaluation-framework",
+                  "language-model",
+                  "transformer"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -1008,12 +1411,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Code for the paper \"Rethinking Benchmark and Contamination for Language Models with Rephrased Samples\"",
+                "homepage": null,
                 "id": 705972277,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2023-12-20T22:33:26Z",
+                "open_issues": 4,
                 "owner": "lm-sys",
                 "repo": "llm-decontaminator",
-                "stars": 325
+                "stars": 325,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             }
@@ -1027,15 +1435,30 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T21:15:07.323Z",
+    "last_updated": "2026-08-29T05:01:29.756Z",
     "original_repository_info": {
       "archived": false,
+      "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
+      "homepage": null,
       "id": 738133733,
       "language": null,
+      "license": "MIT",
       "last_commit": "2026-06-02T03:50:23Z",
+      "open_issues": 0,
       "owner": "lyy1994",
       "repo": "awesome-data-contamination",
-      "stars": 119
+      "stars": 119,
+      "topics": [
+        "awesome-list",
+        "data-contamination",
+        "evaluation",
+        "foundation-models",
+        "large-language-models",
+        "llm",
+        "paper-list",
+        "pre-trained-language-models",
+        "pre-trained-model"
+      ]
     },
     "original_repository_sha": "4dd7efaf1005faa333dba2a896ae0c4acdcd07e9",
     "enhanced_repository": "enhansome/enhansome-data-contamination",
