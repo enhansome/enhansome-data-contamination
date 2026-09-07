@@ -21,7 +21,7 @@
                 "open_issues": 104,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2902,
+                "stars": 2903,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -72,7 +72,7 @@
                 "open_issues": 175,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1311,
+                "stars": 1313,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -143,7 +143,7 @@
                 "open_issues": 7,
                 "owner": "eth-sri",
                 "repo": "matharena",
-                "stars": 281,
+                "stars": 282,
                 "topics": [
                   "evaluating-models",
                   "llm"
@@ -496,7 +496,7 @@
                 "open_issues": 0,
                 "owner": "David-Li0406",
                 "repo": "Preference-Leakage",
-                "stars": 56,
+                "stars": 57,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -662,7 +662,7 @@
                 "license": null,
                 "last_commit": "2024-02-28T15:23:11Z",
                 "open_issues": 0,
-                "owner": "NanshineLoong",
+                "owner": "nanshine",
                 "repo": "Self-Evolving-Benchmark",
                 "stars": 26,
                 "topics": []
@@ -706,7 +706,7 @@
                 "open_issues": 0,
                 "owner": "mengtong0110",
                 "repo": "Tokenizer-MIA",
-                "stars": 22,
+                "stars": 23,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -811,7 +811,7 @@
                 "open_issues": 0,
                 "owner": "shahriargolchin",
                 "repo": "time-travel-in-llms",
-                "stars": 14,
+                "stars": 13,
                 "topics": [
                   "data-contamination",
                   "guided-instruction",
@@ -1214,6 +1214,27 @@
             },
             {
               "node_type": "item",
+              "title": "Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data in LLMs (arXiv, 23 Jul 2025) Eyal German, Sagiv Antebi, Daniel Samira, Asaf Shabtai, Yuval Elovici [paper",
+              "description": "] [code] [data]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Tab-MIA: A Benchmark for Membership Inference Attacks on Tabular Data",
+                "homepage": null,
+                "id": 979349103,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-03-20T10:18:26Z",
+                "open_issues": 1,
+                "owner": "eyalgerman",
+                "repo": "Tab-MIA",
+                "stars": 2,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
+            },
+            {
+              "node_type": "item",
               "title": "Provable Training Data Identification for Large Language Models (ICML 2026) Zhenlong Liu, Hao Zeng, Weiran Huang, Hongxin Wei [paper",
               "description": "] [code]",
               "children": [],
@@ -1249,27 +1270,6 @@
                 "open_issues": 0,
                 "owner": "chengxuphd",
                 "repo": "dcr",
-                "stars": 1,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T21:15:07.323Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data in LLMs (arXiv, 23 Jul 2025) Eyal German, Sagiv Antebi, Daniel Samira, Asaf Shabtai, Yuval Elovici [paper",
-              "description": "] [code] [data]",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Tab-MIA: A Benchmark for Membership Inference Attacks on Tabular Data",
-                "homepage": null,
-                "id": 979349103,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-03-20T10:18:26Z",
-                "open_issues": 1,
-                "owner": "eyalgerman",
-                "repo": "Tab-MIA",
                 "stars": 1,
                 "topics": []
               },
@@ -1392,10 +1392,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-01T13:51:29Z",
-                "open_issues": 939,
+                "open_issues": 947,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13900,
+                "stars": 13920,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1435,7 +1435,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-06T13:48:09.501Z",
+    "last_updated": "2026-09-07T16:04:05.261Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
