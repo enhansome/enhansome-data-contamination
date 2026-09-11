@@ -72,7 +72,7 @@
                 "open_issues": 176,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1312,
+                "stars": 1315,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -1391,11 +1391,11 @@
                 "id": 290909192,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-09-01T13:51:29Z",
-                "open_issues": 959,
+                "last_commit": "2026-09-10T15:59:22Z",
+                "open_issues": 965,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 13944,
+                "stars": 13950,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1435,7 +1435,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T14:38:56.778Z",
+    "last_updated": "2026-09-11T14:37:53.589Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
