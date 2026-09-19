@@ -18,10 +18,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 105,
+                "open_issues": 106,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2913,
+                "stars": 2914,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -68,11 +68,11 @@
                 "id": 814138036,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-16T23:08:31Z",
+                "last_commit": "2026-09-19T00:20:33Z",
                 "open_issues": 178,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1323,
+                "stars": 1324,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -203,7 +203,7 @@
                 "open_issues": 13,
                 "owner": "swj0419",
                 "repo": "detect-pretrain-code",
-                "stars": 243,
+                "stars": 244,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -811,7 +811,7 @@
                 "open_issues": 0,
                 "owner": "shahriargolchin",
                 "repo": "time-travel-in-llms",
-                "stars": 13,
+                "stars": 14,
                 "topics": [
                   "data-contamination",
                   "guided-instruction",
@@ -1392,10 +1392,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-14T10:51:06Z",
-                "open_issues": 994,
+                "open_issues": 996,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14015,
+                "stars": 14025,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1435,7 +1435,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-18T14:38:49.547Z",
+    "last_updated": "2026-09-19T13:59:19.323Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
