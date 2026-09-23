@@ -18,7 +18,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 106,
+                "open_issues": 108,
                 "owner": "stanford-crfm",
                 "repo": "helm",
                 "stars": 2921,
@@ -42,7 +42,7 @@
                 "open_issues": 2,
                 "owner": "microsoftarchive",
                 "repo": "promptbench",
-                "stars": 2821,
+                "stars": 2822,
                 "topics": [
                   "adversarial-attacks",
                   "benchmark",
@@ -68,11 +68,11 @@
                 "id": 814138036,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-21T18:11:16Z",
-                "open_issues": 179,
+                "last_commit": "2026-09-22T19:16:01Z",
+                "open_issues": 181,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1326,
+                "stars": 1327,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -122,7 +122,7 @@
                 "open_issues": 4,
                 "owner": "lm-sys",
                 "repo": "llm-decontaminator",
-                "stars": 325,
+                "stars": 324,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -432,6 +432,27 @@
             },
             {
               "node_type": "item",
+              "title": "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index (EMNLP 2025) Hao Xu, Jiacheng Liu, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi [paper",
+              "description": "] [code] [website]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 839560086,
+                "language": "C++",
+                "license": "Apache-2.0",
+                "last_commit": "2025-09-26T23:28:24Z",
+                "open_issues": 6,
+                "owner": "xuhaoxh",
+                "repo": "infini-gram-mini",
+                "stars": 61,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
+            },
+            {
+              "node_type": "item",
               "title": "Min-K%++: Improved Baseline for Detecting Pre-Training Data from Large Language Models (arXiv, 3 Apr 2024) Jingyang Zhang, Jingwei Sun, Eric Yeats, Yang Ouyang, Martin Kuo, Jianyi Zhang, Hao Yang, Hai Li [paper",
               "description": "] [website] [code]",
               "children": [],
@@ -456,27 +477,6 @@
                   "pretraining-data-detection",
                   "pythia"
                 ]
-              },
-              "first_seen": "2026-08-28T21:15:07.323Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index (EMNLP 2025) Hao Xu, Jiacheng Liu, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi [paper",
-              "description": "] [code] [website]",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 839560086,
-                "language": "C++",
-                "license": "Apache-2.0",
-                "last_commit": "2025-09-26T23:28:24Z",
-                "open_issues": 6,
-                "owner": "xuhaoxh",
-                "repo": "infini-gram-mini",
-                "stars": 60,
-                "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -1392,10 +1392,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-14T10:51:06Z",
-                "open_issues": 1012,
+                "open_issues": 1019,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14055,
+                "stars": 14063,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1420,7 +1420,7 @@
                 "open_issues": 4,
                 "owner": "lm-sys",
                 "repo": "llm-decontaminator",
-                "stars": 325,
+                "stars": 324,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -1435,7 +1435,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-22T15:10:25.246Z",
+    "last_updated": "2026-09-23T15:11:31.924Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
