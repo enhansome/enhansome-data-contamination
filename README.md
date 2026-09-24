@@ -76,7 +76,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     </details>
 3. **LiveBench: A Challenging, Contamination-Free LLM Benchmark** (GitHub, 14 June 2024) ![](https://img.shields.io/badge/Preventative-blue)![](https://img.shields.io/badge/Dataset-orange) <br />
    *Colin White, Samuel Dooley, Manley Roberts, Arka Pal, Benjamin Feuer, Siddhartha Jain, Ravid Shwartz-Ziv, Neel Jain, Khalid Saifullah, Siddartha Naidu, Chinmay Hegde, Yann LeCun, Tom Goldstein, Willie Neiswanger, Micah Goldblum*
-   \[[paper](https://livebench.ai/livebench.pdf)] \[[code](https://github.com/LiveBench/LiveBench) ⭐ 1,327 | 🐛 181 | 🌐 Python | 📅 2026-09-22]
+   \[[paper](https://livebench.ai/livebench.pdf)] \[[code](https://github.com/LiveBench/LiveBench) ⭐ 1,329 | 🐛 183 | 🌐 Python | 📅 2026-09-22]
     <details><summary><b>Abstract</b></summary>
     Test set contamination, wherein test data from a benchmark ends up in a newer model’s training set, is a well-documented obstacle for fair LLM evaluation and can quickly render benchmarks obsolete. To mitigate this, many recent benchmarks crowdsource new prompts and evaluations from human or LLM judges; however, these can introduce significant biases, and break down when scoring hard questions. In this work, we introduce a new benchmark for LLMs designed to be immune to both test set contamination and the pitfalls of LLM judging and human crowdsourcing. We release LiveBench, the first benchmark that (1) contains frequently updated questions from recent information sources, (2) scores answers automatically according to objective ground-truth values, and (3) contains a wide variety of challenging tasks, spanning math, coding, reasoning, language, instruction following, and data analysis. To achieve this, LiveBench contains questions that are based on recently-released math competitions, arXiv papers, news articles, and datasets, and it contains harder, contamination-free versions of tasks from previous benchmarks such as Big-Bench Hard, AMPS, bAbI, and IFEval. We evaluate many prominent closed-source models, as well as dozens of open-source models ranging from 0.5B to 110B in size. LiveBench is difficult, with top models achieving below 60% accuracy. We release all questions, code, and model answers. Questions will be added and updated on a monthly basis, and we will release new tasks and harder versions of tasks over time so that LiveBench can distinguish between the capabilities of LLMs as they improve in the future. We welcome community engagement and collaboration for expanding the benchmark tasks and models.
     </details>
@@ -142,7 +142,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
      </details>
 13. **EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories** (arXiv, 31 Mar 2024) ![](https://img.shields.io/badge/Preventative-blue)![](https://img.shields.io/badge/Dataset-orange) <br />
     *Jia Li, Ge Li, Xuanming Zhang, Yihong Dong, Zhi Jin*
-    \[[paper](https://arxiv.org/abs/2404.00599)] \[[code](https://github.com/seketeam/EvoCodeBench) ⭐ 71 | 🐛 10 | 🌐 Python | 📅 2024-08-15]
+    \[[paper](https://arxiv.org/abs/2404.00599)] \[[code](https://github.com/seketeam/EvoCodeBench) ⭐ 72 | 🐛 10 | 🌐 Python | 📅 2024-08-15]
      <details><summary><b>Abstract</b></summary>
      How to evaluate Large Language Models (LLMs) in code generation is an open question. Existing benchmarks demonstrate poor alignment with real-world code repositories and are insufficient to evaluate the coding abilities of LLMs. This paper proposes a new benchmark - EvoCodeBench to address the preceding problems, which has three primary advances. (1) EvoCodeBench aligns with real-world repositories in multiple dimensions, e.g., code distributions and dependency distributions. (2) EvoCodeBench offers comprehensive annotations (e.g., requirements, reference code, and reference dependencies), and robust evaluation metrics (e.g., Pass@k and Recall@k). (3) EvoCodeBench is an evolving benchmark to avoid data leakage. We build an automatic pipeline to update EvoCodeBench from the latest repositories. We release the first version - EvoCodeBench-2403, containing 275 samples from 25 real-world repositories. Based on EvoCodeBench, we propose repository-level code generation and evaluate 10 popular LLMs (e.g., gpt-4, gpt-3.5, DeepSeek Coder, StarCoder 2, CodeLLaMa, Gemma, and Qwen 1.5). Our experiments reveal the coding abilities of these LLMs in real-world repositories. For example, the highest Pass@1 of gpt-4 only is 20.73% in our experiments. We also analyze failed cases and summarize the shortcomings of existing LLMs in EvoCodeBench. We release EvoCodeBench, all prompts, and LLMs' completions for further community analysis.
      </details>
@@ -944,7 +944,7 @@ A reference list of contamination detectors and contamination indices is as foll
 
 Some open-sourced evaluation tools provide the **decontamination** option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:
 
-* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 14,063 | 🐛 1,019 | 🌐 Python | 📅 2026-09-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 14,063 | 🐛 1,019 | 🌐 Python | 📅 2026-09-14]
+* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 14,067 | 🐛 1,030 | 🌐 Python | 📅 2026-09-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 14,067 | 🐛 1,030 | 🌐 Python | 📅 2026-09-14]
 * [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator) ⭐ 324 | 🐛 4 | 🌐 Python | 📅 2023-12-20
 * ......
 
@@ -1042,4 +1042,4 @@ We referred to the template of [Knowledge Editing for LLMs Papers](https://githu
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-23._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-24._
