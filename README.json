@@ -21,7 +21,7 @@
                 "open_issues": 108,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2921,
+                "stars": 2923,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -90,7 +90,7 @@
                 "language": null,
                 "license": null,
                 "last_commit": "2026-08-11T13:57:47Z",
-                "open_issues": 0,
+                "open_issues": 1,
                 "owner": "SeekingDream",
                 "repo": "Static-to-Dynamic-LLMEval",
                 "stars": 500,
@@ -776,6 +776,33 @@
             },
             {
               "node_type": "item",
+              "title": "Time Travel in LLMs: Tracing Data Contamination in Large Language Models (ICLR 2024) Shahriar Golchin, Mihai Surdeanu [paper",
+              "description": "] [code]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "The official repository for the paper entitled \"Time Travel in LLMs: Tracing Data Contamination in Large Language Models.\"",
+                "homepage": "https://openreview.net/forum?id=2Rwq6c3tvr",
+                "id": 776209795,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2024-06-11T04:32:05Z",
+                "open_issues": 0,
+                "owner": "shahriargolchin",
+                "repo": "time-travel-in-llms",
+                "stars": 15,
+                "topics": [
+                  "data-contamination",
+                  "guided-instruction",
+                  "large-language-models",
+                  "llms",
+                  "memorization"
+                ]
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
+            },
+            {
+              "node_type": "item",
               "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models (arXiv, 10 Oct 2025) Yongding Tao, Tian Wang, Yihong Dong, Huanyu Liu, Kechi Zhang, Xiaolong Hu, Ge Li [paper",
               "description": "] [code]",
               "children": [],
@@ -792,33 +819,6 @@
                 "repo": "RL-Data-Contamination",
                 "stars": 15,
                 "topics": []
-              },
-              "first_seen": "2026-08-28T21:15:07.323Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Time Travel in LLMs: Tracing Data Contamination in Large Language Models (ICLR 2024) Shahriar Golchin, Mihai Surdeanu [paper",
-              "description": "] [code]",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "The official repository for the paper entitled \"Time Travel in LLMs: Tracing Data Contamination in Large Language Models.\"",
-                "homepage": "https://openreview.net/forum?id=2Rwq6c3tvr",
-                "id": 776209795,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2024-06-11T04:32:05Z",
-                "open_issues": 0,
-                "owner": "shahriargolchin",
-                "repo": "time-travel-in-llms",
-                "stars": 14,
-                "topics": [
-                  "data-contamination",
-                  "guided-instruction",
-                  "large-language-models",
-                  "llms",
-                  "memorization"
-                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -1392,10 +1392,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-14T10:51:06Z",
-                "open_issues": 1046,
+                "open_issues": 1059,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14080,
+                "stars": 14085,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1435,7 +1435,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-26T14:44:01.690Z",
+    "last_updated": "2026-09-27T15:18:38.553Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
@@ -1444,7 +1444,7 @@
       "language": null,
       "license": "MIT",
       "last_commit": "2026-06-02T03:50:23Z",
-      "open_issues": 0,
+      "open_issues": 1,
       "owner": "lyy1994",
       "repo": "awesome-data-contamination",
       "stars": 119,
