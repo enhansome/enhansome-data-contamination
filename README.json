@@ -1417,10 +1417,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-14T10:51:06Z",
-                "open_issues": 1124,
+                "open_issues": 1123,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14138,
+                "stars": 14140,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1460,7 +1460,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T11:05:34.669Z",
+    "last_updated": "2026-10-06T16:55:49.018Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
