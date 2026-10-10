@@ -21,7 +21,7 @@
                 "open_issues": 112,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2935,
+                "stars": 2937,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -406,6 +406,35 @@
             },
             {
               "node_type": "item",
+              "title": "Min-K%++: Improved Baseline for Detecting Pre-Training Data from Large Language Models (arXiv, 3 Apr 2024) Jingyang Zhang, Jingwei Sun, Eric Yeats, Yang Ouyang, Martin Kuo, Jianyi Zhang, Hao Yang, Hai Li [paper",
+              "description": "] [website] [code]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "[ICLR'25 Spotlight] Min-K%++: Improved baseline for detecting pre-training data of LLMs",
+                "homepage": "https://zjysteven.github.io/mink-plus-plus/",
+                "id": 781043217,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2025-05-26T17:07:57Z",
+                "open_issues": 0,
+                "owner": "zjysteven",
+                "repo": "mink-plus-plus",
+                "stars": 61,
+                "topics": [
+                  "iclr2025",
+                  "llama",
+                  "llm",
+                  "mamba",
+                  "membership-inference-attack",
+                  "pretraining-data-detection",
+                  "pythia"
+                ]
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
+            },
+            {
+              "node_type": "item",
               "title": "Benchmarking Benchmark Leakage in Large Language Models (arXiv, 29 Apr 2024) Ruijie Xu, Zengzhi Wang, Run-Ze Fan, Pengfei Liu [paper",
               "description": "] [code] [website]",
               "children": [],
@@ -448,35 +477,6 @@
                 "repo": "infini-gram-mini",
                 "stars": 61,
                 "topics": []
-              },
-              "first_seen": "2026-08-28T21:15:07.323Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Min-K%++: Improved Baseline for Detecting Pre-Training Data from Large Language Models (arXiv, 3 Apr 2024) Jingyang Zhang, Jingwei Sun, Eric Yeats, Yang Ouyang, Martin Kuo, Jianyi Zhang, Hao Yang, Hai Li [paper",
-              "description": "] [website] [code]",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "[ICLR'25 Spotlight] Min-K%++: Improved baseline for detecting pre-training data of LLMs",
-                "homepage": "https://zjysteven.github.io/mink-plus-plus/",
-                "id": 781043217,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2025-05-26T17:07:57Z",
-                "open_issues": 0,
-                "owner": "zjysteven",
-                "repo": "mink-plus-plus",
-                "stars": 60,
-                "topics": [
-                  "iclr2025",
-                  "llama",
-                  "llm",
-                  "mamba",
-                  "membership-inference-attack",
-                  "pretraining-data-detection",
-                  "pythia"
-                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -957,6 +957,32 @@
             },
             {
               "node_type": "item",
+              "title": "Membership Inference on LLMs in the Wild (arXiv, 16 Jan 2026) Jiatong Yi, Yanyang Li [paper",
+              "description": "] [code] [website] [data]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "The code for paper 'Membership Inference on LLMs in the Wild'",
+                "homepage": "https://simmia2026.github.io",
+                "id": 1137250075,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-01-19T05:56:07Z",
+                "open_issues": 0,
+                "owner": "simmia2026",
+                "repo": "SimMIA",
+                "stars": 9,
+                "topics": [
+                  "black-box",
+                  "evaluation",
+                  "inference-attack",
+                  "llm-inference"
+                ]
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
+            },
+            {
+              "node_type": "item",
               "title": "How Contaminated Is Your Benchmark? Quantifying Dataset Leakage in Large Language Models with Kernel Divergence (ICML 2025) Hyeong Kyu Choi, Maxim Khanov, Hongxin Wei, Yixuan Li [paper",
               "description": "] [code] Abstract Dataset contamination, where evaluation datasets overlap with pre-training corpora, inflates performance metrics and undermines the reliability of model evaluations. Measuring dataset contamination thus becomes essential to ensure that performance evaluations genuinely reflect a model's ability to generalize to unseen data, rather than relying on memorized examples. To address this problem, we propose Kernel Divergence Score (KDS), a novel method that evaluates dataset contamination by computing the divergence between the kernel similarity matrix of sample embeddings, before and after fine-tuning on the benchmark dataset. Leveraging the insight that fine-tuning affects unseen samples more significantly than seen ones, KDS provides a reliable measure of contamination. Through extensive experiments on controlled contamination scenarios, KDS demonstrates a near-perfect correlation with contamination levels and outperforms existing baselines. Additionally, we perform comprehensive ablation studies to analyze the impact of key design choices, providing deeper insights into the components and effectiveness of KDS. These ablations highlight the importance of leveraging fine-grained kernel-based information and confirm the reliability of the proposed framework across diverse datasets and settings.",
               "children": [],
@@ -973,32 +999,6 @@
                 "repo": "kernel-divergence-score",
                 "stars": 8,
                 "topics": []
-              },
-              "first_seen": "2026-08-28T21:15:07.323Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Membership Inference on LLMs in the Wild (arXiv, 16 Jan 2026) Jiatong Yi, Yanyang Li [paper",
-              "description": "] [code] [website] [data]",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "The code for paper 'Membership Inference on LLMs in the Wild'",
-                "homepage": "https://simmia2026.github.io",
-                "id": 1137250075,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-01-19T05:56:07Z",
-                "open_issues": 0,
-                "owner": "simmia2026",
-                "repo": "SimMIA",
-                "stars": 8,
-                "topics": [
-                  "black-box",
-                  "evaluation",
-                  "inference-attack",
-                  "llm-inference"
-                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -1417,10 +1417,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-14T10:51:06Z",
-                "open_issues": 1138,
+                "open_issues": 1149,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14166,
+                "stars": 14176,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1460,7 +1460,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-09T17:11:07.491Z",
+    "last_updated": "2026-10-10T15:57:29.640Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
