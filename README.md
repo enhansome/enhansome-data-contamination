@@ -61,7 +61,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 
 1. **Holistic Evaluation of Language Models** (TMLR 2023) ![](https://img.shields.io/badge/Analysis-brown)![](https://img.shields.io/badge/Tool-purple) <br />
    *Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce Zhang, Christian Cosgrove, Christopher D. Manning, Christopher Ré, Diana Acosta-Navas, Drew A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue Wang, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Chi, Sang Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, Yuta Koreeda*
-   \[[paper](https://arxiv.org/abs/2211.09110)] \[[code](https://github.com/stanford-crfm/helm) ⭐ 2,939 | 🐛 114 | 🌐 Python | 📅 2026-09-01] \[[website](https://crfm.stanford.edu/helm/classic/latest/)]
+   \[[paper](https://arxiv.org/abs/2211.09110)] \[[code](https://github.com/stanford-crfm/helm) ⭐ 2,941 | 🐛 114 | 🌐 Python | 📅 2026-09-01] \[[website](https://crfm.stanford.edu/helm/classic/latest/)]
 
     <details><summary><b>Abstract</b></summary>
     Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and metrics (i.e. desiderata) that are of interest for LMs. Then we select a broad subset based on coverage and feasibility, noting what's missing or underrepresented (e.g. question answering for neglected English dialects, metrics for trustworthiness). Second, we adopt a multi-metric approach: We measure 7 metrics (accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency) for each of 16 core scenarios when possible (87.5% of the time). This ensures metrics beyond accuracy don't fall to the wayside, and that trade-offs are clearly exposed. We also perform 7 targeted evaluations, based on 26 targeted scenarios, to analyze specific aspects (e.g. reasoning, disinformation). Third, we conduct a large-scale evaluation of 30 prominent language models (spanning open, limited-access, and closed models) on all 42 scenarios, 21 of which were not previously used in mainstream LM evaluation. Prior to HELM, models on average were evaluated on just 17.9% of the core HELM scenarios, with some prominent models not sharing a single scenario in common. We improve this to 96.0%: now all 30 models have been densely benchmarked on the same core scenarios and metrics under standardized conditions. Our evaluation surfaces 25 top-level findings. For full transparency, we release all raw model prompts and completions publicly for further analysis, as well as a general modular toolkit. We intend for HELM to be a living benchmark for the community, continuously updated with new scenarios, metrics, and models.
@@ -112,7 +112,7 @@ In this paper list, we tag each paper with one or more labels defined in the tab
     </details>
 8. **Detecting Pretraining Data from Large Language Models** (ICLR 2024) ![](https://img.shields.io/badge/Reactive-green)![](https://img.shields.io/badge/Tool-purple)![](https://img.shields.io/badge/Dataset-orange) <br />
    *Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, Luke Zettlemoyer*
-   \[[paper](https://arxiv.org/abs/2310.16789)] \[[code](https://github.com/swj0419/detect-pretrain-code) ⭐ 243 | 🐛 13 | 🌐 Python | 📅 2023-11-03] \[[dataset](https://huggingface.co/datasets/swj0419/WikiMIA)] \[[website](https://swj0419.github.io/detect-pretrain.github.io/)]
+   \[[paper](https://arxiv.org/abs/2310.16789)] \[[code](https://github.com/swj0419/detect-pretrain-code) ⭐ 244 | 🐛 13 | 🌐 Python | 📅 2023-11-03] \[[dataset](https://huggingface.co/datasets/swj0419/WikiMIA)] \[[website](https://swj0419.github.io/detect-pretrain.github.io/)]
     <details><summary><b>Abstract</b></summary>
     Although large language models (LLMs) are widely deployed, the data used to train them is rarely disclosed. Given the incredible scale of this data, up to trillions of tokens, it is all but certain that it includes potentially problematic text such as copyrighted materials, personally identifiable information, and test data for widely reported reference benchmarks. However, we currently have no way to know which data of these types is included or in what proportions. In this paper, we study the pretraining data detection problem: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text? To facilitate this study, we introduce a dynamic benchmark WIKIMIA that uses data created before and after model training to support gold truth detection. We also introduce a new detection method Min-K% Prob based on a simple hypothesis: an unseen example is likely to contain a few outlier words with low probabilities under the LLM, while a seen example is less likely to have words with such low probabilities. Min-K% Prob can be applied without any knowledge about the pretraining corpus or any additional training, departing from previous detection methods that require training a reference model on data that is similar to the pretraining data. Moreover, our experiments demonstrate that Min-K% Prob achieves a 7.4% improvement on WIKIMIA over these previous methods. We apply Min-K% Prob to three real-world scenarios, copyrighted book detection, contaminated downstream example detection and privacy auditing of machine unlearning, and find it a consistently effective solution.
     </details>
@@ -950,7 +950,7 @@ A reference list of contamination detectors and contamination indices is as foll
 
 Some open-sourced evaluation tools provide the **decontamination** option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:
 
-* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 14,196 | 🐛 1,164 | 🌐 Python | 📅 2026-09-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 14,196 | 🐛 1,164 | 🌐 Python | 📅 2026-09-14]
+* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 14,208 | 🐛 1,173 | 🌐 Python | 📅 2026-09-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 14,208 | 🐛 1,173 | 🌐 Python | 📅 2026-09-14]
 * [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator) ⭐ 327 | 🐛 4 | 🌐 Python | 📅 2023-12-20
 * ......
 
@@ -1021,7 +1021,7 @@ There are cases where we miss important work in this field. We welcome opening P
 
 ## 🤝 Acknowledgement
 
-We referred to the template of [Knowledge Editing for LLMs Papers](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐ 1,252 | 🐛 0 | 📅 2026-08-20 when building this paper list. Thanks to its authors for their impressive work!
+We referred to the template of [Knowledge Editing for LLMs Papers](https://github.com/zjunlp/KnowledgeEditingPapers) ⭐ 1,253 | 🐛 0 | 📅 2026-08-20 when building this paper list. Thanks to its authors for their impressive work!
 
 ***
 
@@ -1048,4 +1048,4 @@ We referred to the template of [Knowledge Editing for LLMs Papers](https://githu
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-12._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-13._
