@@ -950,7 +950,7 @@ A reference list of contamination detectors and contamination indices is as foll
 
 Some open-sourced evaluation tools provide the **decontamination** option, which leverages contamination detectors to eliminate compromised test instances during evaluation and delivers more trustworthy evaluation results. Exemplary evaluation tools of this kind are:
 
-* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 14,338 | 🐛 1,256 | 🌐 Python | 📅 2026-09-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 14,338 | 🐛 1,256 | 🌐 Python | 📅 2026-09-14]
+* [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) ⭐ 14,346 | 🐛 1,258 | 🌐 Python | 📅 2026-09-14 \[[docs](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/decontamination.md) ⭐ 14,346 | 🐛 1,258 | 🌐 Python | 📅 2026-09-14]
 * [LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator) ⭐ 327 | 🐛 4 | 🌐 Python | 📅 2023-12-20
 * ......
 
@@ -1048,4 +1048,4 @@ We referred to the template of [Knowledge Editing for LLMs Papers](https://githu
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-28._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-29._
