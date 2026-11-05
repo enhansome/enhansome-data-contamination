@@ -18,7 +18,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 122,
+                "open_issues": 124,
                 "owner": "stanford-crfm",
                 "repo": "helm",
                 "stars": 2964,
@@ -143,7 +143,7 @@
                 "open_issues": 7,
                 "owner": "eth-sri",
                 "repo": "matharena",
-                "stars": 294,
+                "stars": 295,
                 "topics": [
                   "evaluating-models",
                   "llm"
@@ -866,34 +866,6 @@
             },
             {
               "node_type": "item",
-              "title": "DICE: Detecting In-distribution Contamination in LLM's Fine-tuning Phase for Math Reasoning (arXiv, 6 June 2024) Shangqing Tu, Kejian Zhu, Yushi Bai, Zijun Yao, Lei Hou, Juanzi Li [paper",
-              "description": "THU-KEG/DICE",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "DICE: Detecting In-distribution Data Contamination with LLM's Internal State",
-                "homepage": "https://arxiv.org/pdf/2406.04197",
-                "id": 806315236,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2024-09-21T12:48:41Z",
-                "open_issues": 0,
-                "owner": "THU-KEG",
-                "repo": "DICE",
-                "stars": 11,
-                "topics": [
-                  "benchmark",
-                  "data-contamination",
-                  "fine-tuning-llm",
-                  "gsm8k",
-                  "llm",
-                  "sft"
-                ]
-              },
-              "first_seen": "2026-08-28T21:15:07.323Z"
-            },
-            {
-              "node_type": "item",
               "title": "ReCaLL: Membership Inference via Relative Conditional Log-Likelihoods (EMNLP 2024) Roy Xie, Junlin Wang, Ruomin Huang, Minxing Zhang, Rong Ge, Jian Pei, Neil Zhenqiang Gong, Bhuwan Dhingra [paper",
               "description": "ruoyuxie/recall",
               "children": [],
@@ -931,6 +903,34 @@
                 "repo": "LRM_Conta_Detection_Arena",
                 "stars": 11,
                 "topics": []
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
+            },
+            {
+              "node_type": "item",
+              "title": "DICE: Detecting In-distribution Contamination in LLM's Fine-tuning Phase for Math Reasoning (arXiv, 6 June 2024) Shangqing Tu, Kejian Zhu, Yushi Bai, Zijun Yao, Lei Hou, Juanzi Li [paper",
+              "description": "THU-KEG/DICE",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "DICE: Detecting In-distribution Data Contamination with LLM's Internal State",
+                "homepage": "https://arxiv.org/pdf/2406.04197",
+                "id": 806315236,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2024-09-21T12:48:41Z",
+                "open_issues": 0,
+                "owner": "THU-KEG",
+                "repo": "DICE",
+                "stars": 10,
+                "topics": [
+                  "benchmark",
+                  "data-contamination",
+                  "fine-tuning-llm",
+                  "gsm8k",
+                  "llm",
+                  "sft"
+                ]
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
             },
@@ -1417,10 +1417,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-11-04T14:34:40Z",
-                "open_issues": 1294,
+                "open_issues": 1298,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14399,
+                "stars": 14408,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1460,7 +1460,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-04T18:13:54.136Z",
+    "last_updated": "2026-11-05T18:16:49.437Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
