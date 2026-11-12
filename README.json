@@ -18,10 +18,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 126,
+                "open_issues": 125,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2968,
+                "stars": 2969,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -72,7 +72,7 @@
                 "open_issues": 193,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1354,
+                "stars": 1355,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -143,7 +143,7 @@
                 "open_issues": 7,
                 "owner": "eth-sri",
                 "repo": "matharena",
-                "stars": 296,
+                "stars": 297,
                 "topics": [
                   "evaluating-models",
                   "llm"
@@ -326,7 +326,7 @@
                 "id": 777207957,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2024-08-15T02:47:59Z",
+                "last_commit": "2026-11-12T09:19:35Z",
                 "open_issues": 10,
                 "owner": "seketeam",
                 "repo": "EvoCodeBench",
@@ -769,7 +769,7 @@
                 "open_issues": 0,
                 "owner": "MLLM-Data-Contamination",
                 "repo": "MM-Detect",
-                "stars": 18,
+                "stars": 19,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -1417,10 +1417,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-11-04T14:34:40Z",
-                "open_issues": 1338,
+                "open_issues": 1350,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14457,
+                "stars": 14459,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1460,7 +1460,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-11T18:03:33.592Z",
+    "last_updated": "2026-11-12T18:36:00.989Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
