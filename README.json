@@ -21,7 +21,7 @@
                 "open_issues": 127,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2970,
+                "stars": 2973,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -72,7 +72,7 @@
                 "open_issues": 195,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1354,
+                "stars": 1355,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -143,7 +143,7 @@
                 "open_issues": 7,
                 "owner": "eth-sri",
                 "repo": "matharena",
-                "stars": 297,
+                "stars": 299,
                 "topics": [
                   "evaluating-models",
                   "llm"
@@ -1417,10 +1417,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-11-04T14:34:40Z",
-                "open_issues": 1369,
+                "open_issues": 1378,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14475,
+                "stars": 14487,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1460,7 +1460,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-15T17:24:21.693Z",
+    "last_updated": "2026-11-16T20:40:36.015Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
