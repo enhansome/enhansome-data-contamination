@@ -21,7 +21,7 @@
                 "open_issues": 130,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2977,
+                "stars": 2978,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -72,7 +72,7 @@
                 "open_issues": 196,
                 "owner": "LiveBench",
                 "repo": "LiveBench",
-                "stars": 1357,
+                "stars": 1356,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:15:07.323Z"
@@ -140,7 +140,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-11-09T15:14:30Z",
-                "open_issues": 7,
+                "open_issues": 6,
                 "owner": "eth-sri",
                 "repo": "matharena",
                 "stars": 299,
@@ -713,27 +713,6 @@
             },
             {
               "node_type": "item",
-              "title": "FreeEval: A Modular Framework for Trustworthy and Efficient Evaluation of Large Language Models (EMNLP 2024 Demo) Zhuohao Yu, Chang Gao, Wenjin Yao, Yidong Wang, Zhengran Zeng, Wei Ye, Jindong Wang, Yue Zhang, Shikun Zhang [paper",
-              "description": "] [code] [website]",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 773573852,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2024-08-03T07:46:44Z",
-                "open_issues": 0,
-                "owner": "WisdomShell",
-                "repo": "FreeEval",
-                "stars": 19,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T21:15:07.323Z"
-            },
-            {
-              "node_type": "item",
               "title": "DARG: Dynamic Evaluation of Large Language Models via Adaptive Reasoning Graph (arXiv, 25 June 2024) Zhehao Zhang, Jiaao Chen, Diyi Yang [paper",
               "description": "SALT-NLP/DARG",
               "children": [],
@@ -748,6 +727,27 @@
                 "open_issues": 0,
                 "owner": "SALT-NLP",
                 "repo": "DARG",
+                "stars": 20,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T21:15:07.323Z"
+            },
+            {
+              "node_type": "item",
+              "title": "FreeEval: A Modular Framework for Trustworthy and Efficient Evaluation of Large Language Models (EMNLP 2024 Demo) Zhuohao Yu, Chang Gao, Wenjin Yao, Yidong Wang, Zhengran Zeng, Wei Ye, Jindong Wang, Yue Zhang, Shikun Zhang [paper",
+              "description": "] [code] [website]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 773573852,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2024-08-03T07:46:44Z",
+                "open_issues": 0,
+                "owner": "WisdomShell",
+                "repo": "FreeEval",
                 "stars": 19,
                 "topics": []
               },
@@ -1417,10 +1417,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-11-04T14:34:40Z",
-                "open_issues": 1399,
+                "open_issues": 1402,
                 "owner": "EleutherAI",
                 "repo": "lm-evaluation-harness",
-                "stars": 14524,
+                "stars": 14530,
                 "topics": [
                   "evaluation-framework",
                   "language-model",
@@ -1460,7 +1460,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-23T22:14:27.383Z",
+    "last_updated": "2026-11-24T20:52:41.877Z",
     "original_repository_info": {
       "archived": false,
       "description": "The Paper List on Data Contamination for Large Language Models Evaluation.",
